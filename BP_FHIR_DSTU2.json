@@ -1,0 +1,78 @@
+{
+  "resourceType": "Observation",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementSettingExt",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "264362003",
+            "display": "Home (environment)"
+          }
+        ]
+      }
+    },
+    {
+      "url": "http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementCount",
+      "valueInteger": 10
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "96607-7",
+        "display": "Blood pressure panel mean systolic and mean diastolic"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "8c894ca3-4366-4b79-a086-9f3ed9fe438b"
+  },
+  "method": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "17146006",
+        "display": "Arterial pressure monitoring, non-invasive method (regime/therapy)"
+      }
+    ]
+  },
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "96608-5",
+            "display": "Systolic blood pressure mean"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 154,
+        "unit": "mm[Hg]",
+        "system": "http://unitsofmeasure.org",
+        "code": "mm[Hg]"
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "96609-3",
+            "display": "Diastolic blood pressure mean"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 96,
+        "unit": "mm[Hg]",
+        "system": "http://unitsofmeasure.org",
+        "code": "mm[Hg]"
+      }
+    }
+  ]
+}
