@@ -1,27 +1,27 @@
-@prefix lm: <http://example.com/lm> .
-@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix sct:  <http://snomed.info/id#> .
-@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+prefix lm: <http://example.com/lm> 
+prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix sct:  <http://snomed.info/id#> 
+prefix xsd:  <http://www.w3.org/2001/XMLSchema#> 
 
-[   rdf:type lm:AverageBloodPressure ;
-    lm:systolic
-      [   rdf:type lm:Quantity;
+[   a lm:AverageBloodPressure ; # LOINC 96607-7
+    lm:systolic # LOINC 96608-5
+      [   a lm:Quantity;
           lm:value 120;
-          lm:unit "mmHg";
+          lm:unit "mm[Hg]";
       ];
-    lm:diastolic
-      [   rdf:type lm:Quantity;
+    lm:diastolic # LOINC 96609-3
+      [   a lm:Quantity;
           lm:value 80;
-          lm:unit "mmHg";
+          lm:unit "mm[Hg]";
       ];
     lm:subject
       [
-          rdf:type lm:Patient;
+          a lm:Patient;
           lm:identifier "8c894ca3-4366-4b79-a086-9f3ed9fe438b";
       ]
-    lm:method <http://snomed.info/sct/17146006>;
-    lm:setting <http://snomed.info/sct/264362003>;
+    lm:method sct:17146006; # "Arterial pressure monitoring, non-invasive method (regime/therapy)"
+    lm:setting sct:264362003; # "Home (environment)"
     lm:measurementCount 10;
 ].
 

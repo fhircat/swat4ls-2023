@@ -1,0 +1,34 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct:  <http://snomed.info/id#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+[ rdf:type                        fhir:MedicationRequest ;
+  fhir:MedicationRequest.dosageInstruction
+          [ fhir:Dosage.route   [ fhir:CodeableConcept.coding  [ fhir:Coding.code     [ fhir:value  "26643006" ] ;
+                                                                 fhir:Coding.display  [ fhir:value  "Oral route (qualifier value)" ] ;
+                                                                 fhir:Coding.system   [ fhir:value  "http://snomed.info/sct"^^xsd:anyURI ] ;
+                                                                 fhir:index           0
+                                                               ]
+                                ] ;
+            fhir:Dosage.timing  [ fhir:Timing.code  [ fhir:CodeableConcept.coding  [ fhir:Coding.code     [ fhir:value  "229797004" ] ;
+                                                                                     fhir:Coding.display  [ fhir:value  "Once daily (qualifier value)" ] ;
+                                                                                     fhir:Coding.system   [ fhir:value  "http://snomed.info/sct"^^xsd:anyURI ] ;
+                                                                                     fhir:index           0
+                                                                                   ]
+                                                    ]
+                                ] ;
+            fhir:index          0
+          ] ;
+  fhir:MedicationRequest.medicationCodeableConcept
+          [ fhir:CodeableConcept.coding  [ fhir:Coding.code     [ fhir:value  "197361" ] ;
+                                           fhir:Coding.display  [ fhir:value  "amlodipine 5 MG Oral Tablet" ] ;
+                                           fhir:Coding.system   [ fhir:value  "http://www.nlm.nih.gov/research/umls/rxnorm"^^xsd:anyURI ] ;
+                                           fhir:index           0
+                                         ]
+          ] ;
+  fhir:MedicationRequest.subject  [ fhir:Reference.reference  [ fhir:value  "de311dbd-da50-4d26-9360-696a0a7dc8f7" ]
+                                  ] ;
+  fhir:nodeRole                   fhir:treeRoot
+] .

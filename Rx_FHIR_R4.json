@@ -1,0 +1,39 @@
+{
+  "resourceType": "MedicationRequest",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "197361",
+        "display": "amlodipine 5 MG Oral Tablet"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "de311dbd-da50-4d26-9360-696a0a7dc8f7"
+  },
+  "dosageInstruction": [
+    {
+      "timing": {
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "229797004",
+              "display": "Once daily (qualifier value)"
+            }
+          ]
+        }
+      },
+      "route": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "26643006",
+            "display": "Oral route (qualifier value)"
+          }
+        ]
+      }
+    }
+  ]
+}
