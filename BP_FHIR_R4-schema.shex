@@ -1,0 +1,76 @@
+PREFIX bp: <http://shex.io/extensions/Map/#BPDAM->
+PREFIX Map: <http://shex.io/extensions/Map/#>
+PREFIX sct: <http://snomed.info/sct/>
+PREFIX fhir: <http://hl7.org/fhir/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+start = @<BPfhir>
+
+<BPfhir> {
+  a [fhir:Observation] ;
+  fhir:extension {
+    rdf:first @<Ext_MeasurementCount> ;
+    rdf:rest {
+      rdf:first @<Ext_MeasurementSetting> ;
+      rdf:rest [rdf:nil]
+    }
+  } ;
+  fhir:code @<Code_meanBP>;
+  fhir:subject { fhir:reference {
+    fhir:v LITERAL %Map:{ bp:patientId %}
+  } };
+  fhir:method {
+    fhir:coding { rdf:first {
+      a . %Map:{ bp:method %}
+    } }
+  } ;
+  fhir:component {
+    rdf:first @<sysBP> ;
+    rdf:rest {
+      rdf:first @<diaBP> ;
+      rdf:rest [rdf:nil]
+    }
+  } ;
+}
+
+<sysBP> {
+  fhir:code @<Code_sysBP> ;
+  fhir:value {
+    fhir:code { fhir:v . %Map:{ bp:sysUnits %} } ;
+    fhir:value { fhir:v . %Map:{ bp:sysVal %} }
+  }
+}
+
+<diaBP> {
+  fhir:code @<Code_diaBP> ;
+  fhir:value {
+    fhir:code { fhir:v . %Map:{ bp:diaUnits %} } ;
+    fhir:value { fhir:v . %Map:{ bp:diaVal %} }
+  }
+}
+
+<Ext_MeasurementCount> {
+  fhir:url @<Url_measCount> ;
+  fhir:value {
+    fhir:v xsd:integer %Map:{ bp:measurementCount %}
+  }
+}
+
+<Ext_MeasurementSetting> {
+  fhir:url @<Url_measSetting> ;
+  fhir:value {
+    fhir:coding { rdf:first {
+      a . %Map:{ bp:measurementSetting %} ;
+    } }
+  }
+}
+
+# TEMPLATE OneCoding<<CODE>> { fhir:coding { rdf:first { fhir:code { fhir:v [<<CODE>>] } } } }
+# <Code_meanBP> OneCoding<<"96607-7">>
+
+<Code_meanBP> { fhir:coding { rdf:first { fhir:code { fhir:v ["96607-7"] } } } }
+<Code_sysBP> { fhir:coding { rdf:first { fhir:code { fhir:v ["96608-5"] } } } }
+<Code_diaBP> { fhir:coding { rdf:first { fhir:code { fhir:v ["96609-3"] } } } }
+<Url_measCount> { fhir:v ["http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementCount"^^xsd:anyURI] }
+<Url_measSetting> { fhir:v ["http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementSettingExt"^^xsd:anyURI] }

@@ -1,0 +1,13 @@
+- schemaLabel: BP
+  schemaURL: BP_FHIR_R4-schema.shex
+  dataLabel: simple
+  dataURL: BP_FHIR_R4.ttl
+  queryMap: "{FOCUS a fhir:Observation}@START"
+  outputSchemaURL: BPLogicalModel-schema.shex
+  outputShape: "<BPLogicalModel>"
+  staticVars:
+    http://abc.example/someConstant: '"123-456"'
+  createRoot: "<tag:uu3.org/2023/b0>"
+  status: conformant
+  # expectedBindingsURL: BP-simple-bindings.json
+  outputDataURL: BPLogicalModel.ttl

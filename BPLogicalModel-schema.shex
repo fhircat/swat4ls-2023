@@ -1,0 +1,30 @@
+PREFIX lm: <http://example.com/lm> 
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX sct:  <http://snomed.info/id#> 
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#> 
+PREFIX bp: <http://shex.io/extensions/Map/#BPDAM->
+PREFIX Map: <http://shex.io/extensions/Map/#>
+
+start = @<BPLogicalModel>
+
+<BPLogicalModel> {
+    a [lm:AverageBloodPressure] ; # LOINC 96607-7
+    lm:systolic { # LOINC 96608-5
+        a [lm:Quantity];
+        lm:value . %Map:{ bp:sysUnits %} ;
+        lm:unit . %Map:{ bp:sysVal %} ;
+    } ;
+    lm:diastolic { # LOINC 96609-3
+        a [lm:Quantity];
+        lm:value . %Map:{ bp:diaUnits %} ;
+        lm:unit . %Map:{ bp:diaVal %} ;
+    } ;
+    lm:subject {
+        a [lm:Patient] ;
+        lm:identifier xsd:string %Map:{ bp:patientId %}
+    } ;
+    lm:method . %Map:{ bp:method %} ;
+    lm:setting . %Map:{ bp:measurementSetting %} ;
+    lm:measurementCount xsd:integer %Map:{ bp:measurementCount %} ;
+}

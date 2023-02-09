@@ -1,0 +1,82 @@
+PREFIX fhir: <http://hl7.org/fhir/>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sct:  <http://snomed.info/id#>
+PREFIX loinc: <https://loinc.org/rdf/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+
+[
+  a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:extension (
+    [
+      fhir:url [ fhir:v "http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementCount"^^xsd:anyURI ] ;
+      fhir:value  [ fhir:v 10 ] ;
+    ]
+    [
+      fhir:url  [ fhir:v "http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementSettingExt"^^xsd:anyURI ] ;
+      fhir:value [
+        a fhir:CodeableConcept ;
+        fhir:coding ( [
+          a sct:264362003 ;
+          fhir:code    [ fhir:v "264362003" ] ;
+          fhir:display [ fhir:v "Home (environment)" ] ;
+          fhir:system  [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+        ] )
+      ] ;
+    ]
+  ) ;
+  fhir:code [
+    fhir:coding ( [
+      a loinc:96607-7 ;
+      fhir:code [ fhir:v "96607-7" ] ;
+      fhir:display [ fhir:v "Blood pressure panel mean systolic and mean diastolic" ] ;
+      fhir:system  [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+    ] )
+  ] ;
+  fhir:subject [ fhir:reference [ fhir:v "8c894ca3-4366-4b79-a086-9f3ed9fe438b" ] ] ;
+  fhir:method [
+    fhir:coding ( [
+      a sct:17146006 ;
+      fhir:code    [ fhir:v "17146006" ] ;
+      fhir:display [ fhir:v "Arterial pressure monitoring, non-invasive method (regime/therapy)" ] ;
+      fhir:system  [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+    ] )
+  ] ;
+  fhir:component (
+    [
+      fhir:code [
+        fhir:coding ( [
+          a loinc:96608-5 ;
+          fhir:code    [ fhir:v "96608-5" ] ;
+          fhir:display [ fhir:v "Systolic blood pressure mean" ] ;
+          fhir:system  [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+        ] )
+      ] ;
+      fhir:value [
+        a fhir:Quantity ;
+        fhir:code   [ fhir:v "mm[Hg]" ] ;
+        fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+        fhir:unit   [ fhir:v "mm[Hg]" ] ;
+        fhir:value  [ fhir:v "154"^^xsd:decimal ]
+      ] ;
+    ]
+    [
+      fhir:code [
+        fhir:coding ( [
+          a loinc:96609-3 ;
+          fhir:code    [ fhir:v "96609-3" ] ;
+          fhir:display [ fhir:v "Diastolic blood pressure mean" ] ;
+          fhir:system  [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+        ] )
+      ] ;
+      fhir:value [
+        a fhir:Quantity ;
+        fhir:code   [ fhir:v "mm[Hg]" ] ;
+        fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+        fhir:unit   [ fhir:v "mm[Hg]" ] ;
+        fhir:value  [ fhir:v "96"^^xsd:decimal ]
+      ]
+    ]
+  ) ;
+] .
