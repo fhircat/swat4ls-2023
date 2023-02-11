@@ -11,14 +11,14 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
   fhir:extension (
     [
       fhir:url [ fhir:v "http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementCount"^^xsd:anyURI ] ;
-      fhir:value  [ fhir:v 10 ] ;
+      fhir:value  [ fhir:v 10 ] ; # bp:measurementCount
     ]
     [
       fhir:url  [ fhir:v "http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementSettingExt"^^xsd:anyURI ] ;
       fhir:value [
         a fhir:CodeableConcept ;
         fhir:coding ( [
-          a sct:264362003 ;
+          a sct:264362003 ; # bp:measurementSetting
           fhir:code    [ fhir:v "264362003" ] ;
           fhir:display [ fhir:v "Home (environment)" ] ;
           fhir:system  [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
@@ -34,10 +34,10 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
       fhir:system  [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
     ] )
   ] ;
-  fhir:subject [ fhir:reference [ fhir:v "8c894ca3-4366-4b79-a086-9f3ed9fe438b" ] ] ;
+  fhir:subject [ fhir:reference [ fhir:v "8c894ca3-4366-4b79-a086-9f3ed9fe438b" ] ] ; # bp:patientId
   fhir:method [
     fhir:coding ( [
-      a sct:17146006 ;
+      a sct:17146006 ; # bp:method
       fhir:code    [ fhir:v "17146006" ] ;
       fhir:display [ fhir:v "Arterial pressure monitoring, non-invasive method (regime/therapy)" ] ;
       fhir:system  [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
@@ -57,8 +57,8 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
         a fhir:Quantity ;
         fhir:code   [ fhir:v "mm[Hg]" ] ;
         fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
-        fhir:unit   [ fhir:v "mm[Hg]" ] ;
-        fhir:value  [ fhir:v "154"^^xsd:decimal ]
+        fhir:unit   [ fhir:v "mm[Hg]" ] ; # bp:sysUnits
+        fhir:value  [ fhir:v "154"^^xsd:decimal ] ; # bp:sysVal
       ] ;
     ]
     [
@@ -74,8 +74,8 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
         a fhir:Quantity ;
         fhir:code   [ fhir:v "mm[Hg]" ] ;
         fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
-        fhir:unit   [ fhir:v "mm[Hg]" ] ;
-        fhir:value  [ fhir:v "96"^^xsd:decimal ]
+        fhir:unit   [ fhir:v "mm[Hg]" ] ; # bp:diaUnits
+        fhir:value  [ fhir:v "96"^^xsd:decimal ] ; # bp:diaVal
       ]
     ]
   ) ;

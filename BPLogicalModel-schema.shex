@@ -12,13 +12,13 @@ start = @<BPLogicalModel>
     a [lm:AverageBloodPressure] ; # LOINC 96607-7
     lm:systolic { # LOINC 96608-5
         a [lm:Quantity];
-        lm:value . %Map:{ bp:sysUnits %} ;
-        lm:unit . %Map:{ bp:sysVal %} ;
+        lm:unit . %Map:{ bp:sysUnits %} ;
+        lm:value . %Map:{ bp:sysVal %} ;
     } ;
     lm:diastolic { # LOINC 96609-3
         a [lm:Quantity];
-        lm:value . %Map:{ bp:diaUnits %} ;
-        lm:unit . %Map:{ bp:diaVal %} ;
+        lm:unit . %Map:{ bp:diaUnits %} ;
+        lm:value . %Map:{ bp:diaVal %} ;
     } ;
     lm:subject {
         a [lm:Patient] ;

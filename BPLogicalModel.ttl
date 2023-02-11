@@ -1,27 +1,27 @@
-prefix lm: <http://example.com/lm> 
-prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
-prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
-prefix sct:  <http://snomed.info/id#> 
-prefix xsd:  <http://www.w3.org/2001/XMLSchema#> 
+PREFIX lm: <http://example.com/lm>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sct: <http://snomed.info/id#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX bp: <http://shex.io/extensions/Map/#BPDAM->
+PREFIX Map: <http://shex.io/extensions/Map/#>
 
-[   a lm:AverageBloodPressure ; # LOINC 96607-7
-    lm:systolic # LOINC 96608-5
-      [   a lm:Quantity;
-          lm:value 120;
-          lm:unit "mm[Hg]";
-      ];
-    lm:diastolic # LOINC 96609-3
-      [   a lm:Quantity;
-          lm:value 80;
-          lm:unit "mm[Hg]";
-      ];
-    lm:subject
-      [
-          a lm:Patient;
-          lm:identifier "8c894ca3-4366-4b79-a086-9f3ed9fe438b";
-      ]
-    lm:method sct:17146006; # "Arterial pressure monitoring, non-invasive method (regime/therapy)"
-    lm:setting sct:264362003; # "Home (environment)"
-    lm:measurementCount 10;
-].
-
+<tag:uu3.org/2023/b0> a lm:AverageBloodPressure ; # LOINC 96607-7
+  lm:systolic [ # LOINC 96608-5
+    a lm:Quantity;
+    lm:value "mm[Hg]" ;
+    lm:unit "154"^^xsd:decimal
+  ] ;
+  lm:diastolic [ # LOINC 96609-3
+    a lm:Quantity ;
+    lm:value "mm[Hg]" ;
+    lm:unit "96"^^xsd:decimal
+  ] ;
+  lm:subject [
+    a lm:Patient ;
+    lm:identifier "8c894ca3-4366-4b79-a086-9f3ed9fe438b"
+  ] ;
+  lm:method sct:17146006 ; # "Arterial pressure monitoring, non-invasive method (regime/therapy)"
+  lm:setting sct:264362003 ; # "Home (environment)"
+  lm:measurementCount 10
+.

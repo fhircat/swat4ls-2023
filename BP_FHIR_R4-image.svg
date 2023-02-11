@@ -5,9 +5,9 @@
 <!-- Title: %3 Pages: 1 -->
 
 <svg
-   width="3372pt"
-   height="1340pt"
-   viewBox="0.00 0.00 3372.07 1340.00"
+   width="3201.1611pt"
+   height="1202.9751pt"
+   viewBox="0 0 3201.2276 1202.9751"
    version="1.1"
    id="svg3103"
    sodipodi:docname="BP_FHIR_R4-image.svg"
@@ -28,25 +28,57 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="pt"
      showgrid="false"
-     inkscape:zoom="0.53580961"
-     inkscape:cx="1892.4633"
-     inkscape:cy="579.49689"
+     inkscape:zoom="2.1432384"
+     inkscape:cx="2993.834"
+     inkscape:cy="429.95683"
      inkscape:window-width="2560"
      inkscape:window-height="1416"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg3103" />
-  <polygon
-     fill="#ffffff"
-     stroke="transparent"
-     points="-4,4 -4,-1336 3368.07,-1336 3368.07,4 "
-     id="polygon1701"
-     transform="translate(6.3603773,1336.9218)" />
+     inkscape:current-layer="svg3103"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <g
+     id="node13"
+     class="node"
+     transform="matrix(0.99960838,0,0,0.99960838,1873.1991,554.82324)">
+    <title
+       id="title76460">Rsct:264362003</title>
+    <ellipse
+       fill="none"
+       stroke="#0000ff"
+       cx="543.16998"
+       cy="-214.5"
+       rx="79.889999"
+       ry="28"
+       style="fill:#7fff7f;fill-opacity:1;stroke-width:3"
+       id="ellipse76462" />
+    <text
+       text-anchor="middle"
+       x="543.16998"
+       y="-223.8"
+       font-family="Times, serif"
+       font-size="14px"
+       id="text76464">sct:264362003</text>
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-size:22.0004px;line-height:1.25;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#922525;fill-opacity:1;stroke-width:0.750016"
+     x="2415.3557"
+     y="353.04602"
+     id="text37255-3-5-9-2"><tspan
+       sodipodi:role="line"
+       id="tspan37253-3-2-9-1"
+       style="fill:#7f1f1f;fill-opacity:1;stroke-width:0.750016"
+       x="2415.3557"
+       y="353.04602">bp:setting</tspan></text>
   <g
      id="node1"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title1717">B_:genid1</title>
     <circle
@@ -60,13 +92,14 @@
   <g
      id="node2"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title1722">Lhttp://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementCount|Datatype: xsd:anyURI</title>
     <polygon
        fill="none"
        stroke="#000000"
-       points="1568.18,-1109.5 1568.18,-1063.5 1073.18,-1063.5 1073.18,-1109.5 "
+       points="1073.18,-1063.5 1073.18,-1109.5 1568.18,-1109.5 1568.18,-1063.5 "
+       style="fill:#ffff7f;fill-opacity:1"
        id="polygon1724" />
     <text
        text-anchor="middle"
@@ -93,7 +126,7 @@
   <g
      id="edge1"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title1733">B_:genid1-&gt;Lhttp://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementCount|Datatype: xsd:anyURI</title>
     <path
@@ -117,7 +150,7 @@
   <g
      id="node3"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title1742">B_:genid2</title>
     <circle
@@ -128,43 +161,35 @@
        id="ellipse1744"
        r="18" />
   </g>
-  <g
-     id="node4"
-     class="node"
-     transform="translate(4,1336)">
-    <title
-       id="title1747">L10|Datatype: xsd:integer</title>
-    <polygon
-       fill="none"
-       stroke="#000000"
-       points="1406.68,-1044.5 1406.68,-998.5 1234.68,-998.5 1234.68,-1044.5 "
-       id="polygon1749" />
-    <text
-       text-anchor="middle"
-       x="1320.6801"
-       y="-1029.3"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text1751">10</text>
-    <!--
-    <polyline
-       fill="none"
-       stroke="#000000"
-       points="1234.68,-1021.5 1406.68,-1021.5 "
-       id="polyline1753" />
-    <text
-       text-anchor="middle"
-       x="1320.6801"
-       y="-1006.3"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text1755">Datatype: xsd:integer</text>
-    -->
-  </g>
+  <polygon
+     fill="none"
+     stroke="#000000"
+     points="1234.68,-998.5 1234.68,-1044.5 1406.68,-1044.5 1406.68,-998.5 "
+     id="polygon1749"
+     style="fill:#7fff7f;fill-opacity:1"
+     transform="matrix(1.4811008,0,0,0.99533978,-593.3888,1327.2393)" />
+  <text
+     text-anchor="middle"
+     x="1363.1801"
+     y="302.69968"
+     font-family="Times, serif"
+     font-size="14px"
+     id="text1751">10</text>
+  <text
+     xml:space="preserve"
+     style="font-size:22.0004px;line-height:1.25;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#922525;fill-opacity:1;stroke-width:0.750016"
+     x="1364.2067"
+     y="323.99765"
+     id="text37255-8"><tspan
+       sodipodi:role="line"
+       id="tspan37253-6"
+       style="fill:#7f1f1f;fill-opacity:1;stroke-width:0.750016"
+       x="1364.2067"
+       y="323.99765">bp:measurementCount</tspan></text>
   <g
      id="edge2"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title1758">B_:genid2-&gt;L10|Datatype: xsd:integer</title>
     <path
@@ -188,7 +213,7 @@
   <g
      id="node5"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title1767">B_:genid3</title>
     <circle
@@ -202,7 +227,7 @@
   <g
      id="edge3"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title1772">B_:genid3-&gt;B_:genid1</title>
     <path
@@ -226,7 +251,7 @@
   <g
      id="edge4"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title1781">B_:genid3-&gt;B_:genid2</title>
     <path
@@ -250,7 +275,7 @@
   <g
      id="node6"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title1790">B_:genid4</title>
     <circle
@@ -261,67 +286,43 @@
        id="ellipse1792"
        r="18" />
   </g>
-  <g
-     id="node7"
-     class="node"
-     transform="translate(4,1336)">
-    <title
-       id="title1795">Lhttp://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementSettingExt|Datatype: xsd:anyURI</title>
-    <polygon
-       fill="none"
-       stroke="#000000"
-       points="2216.18,-1039.5 2216.18,-993.5 1686.18,-993.5 1686.18,-1039.5 "
-       id="polygon1797" />
-    <text
-       text-anchor="middle"
-       x="1951.1801"
-       y="-1024.3"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text1799">http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementSettingExt ^^anyURI</text>
-    <!--
-    <polyline
-       fill="none"
-       stroke="#000000"
-       points="1686.18,-1016.5 2216.18,-1016.5 "
-       id="polyline1801" />
-    <text
-       text-anchor="middle"
-       x="1951.1801"
-       y="-1001.3"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text1803">Datatype: xsd:anyURI</text>
-    -->
-  </g>
-  <g
-     id="edge5"
-     class="edge"
-     transform="translate(4,1336)">
-    <title
-       id="title1806">B_:genid4-&gt;Lhttp://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementSettingExt|Datatype: xsd:anyURI</title>
-    <path
-       fill="none"
-       stroke="#000000"
-       d="m 1338.82,-963 c 49.76,-4.35 199.56,-17.46 338.41,-29.61"
-       id="path1808" />
-    <polygon
-       fill="#000000"
-       stroke="#000000"
-       points="1677.55,-989.13 1676.94,-996.1 1687.2,-993.49 "
-       id="polygon1810" />
-    <text
-       text-anchor="middle"
-       x="1627.1801"
-       y="-995.29999"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text1812">fhir:v</text>
-  </g>
+  <polygon
+     fill="none"
+     stroke="#000000"
+     points="1686.18,-1039.5 2216.18,-1039.5 2216.18,-993.5 1686.18,-993.5 "
+     id="polygon1797"
+     style="fill:#ffff7f;fill-opacity:1"
+     transform="matrix(0.89426557,0,0,1.0011699,147.6969,1333.1889)" />
+  <text
+     text-anchor="middle"
+     x="1891.6057"
+     y="310.09177"
+     font-family="Times, serif"
+     font-size="14px"
+     id="text1799">http://hl7.org/fhir/us/vitals/StructureDefinition/MeasurementSettingExt ^^anyURI</text>
+  <path
+     fill="none"
+     stroke="#000000"
+     d="m 1338.7637,367.02436 c 49.76,-4.35 165.6163,-15.48466 304.4663,-27.63466"
+     id="path1808"
+     sodipodi:nodetypes="cc" />
+  <polygon
+     fill="#000000"
+     stroke="#000000"
+     points="1676.94,-996.1 1687.2,-993.49 1677.55,-989.13 "
+     id="polygon1810"
+     transform="translate(-34.0007,1331.9997)" />
+  <text
+     text-anchor="middle"
+     x="1536.2709"
+     y="342.10684"
+     font-family="Times, serif"
+     font-size="14px"
+     id="text1812">fhir:v</text>
   <g
      id="node8"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title1815">B_:genid5</title>
     <circle
@@ -335,13 +336,13 @@
   <g
      id="node9"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title1820">L264362003</title>
     <polygon
        fill="none"
        stroke="#000000"
-       points="3161.07,-1060.5 3161.07,-1024.5 3063.07,-1024.5 3063.07,-1060.5 "
+       points="3063.07,-1024.5 3063.07,-1060.5 3161.07,-1060.5 3161.07,-1024.5 "
        id="polygon1822" />
     <text
        text-anchor="middle"
@@ -354,7 +355,7 @@
   <g
      id="edge6"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title1827">B_:genid5-&gt;L264362003</title>
     <path
@@ -378,7 +379,7 @@
   <g
      id="node10"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title1836">B_:genid6</title>
     <circle
@@ -392,13 +393,13 @@
   <g
      id="node11"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title1841">LHome (environment)</title>
     <polygon
        fill="none"
        stroke="#000000"
-       points="3194.07,-1115.5 3194.07,-1079.5 3030.07,-1079.5 3030.07,-1115.5 "
+       points="3030.07,-1079.5 3030.07,-1115.5 3194.07,-1115.5 3194.07,-1079.5 "
        id="polygon1843" />
     <text
        text-anchor="middle"
@@ -411,7 +412,7 @@
   <g
      id="edge7"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title1848">B_:genid6-&gt;LHome (environment)</title>
     <path
@@ -435,7 +436,7 @@
   <g
      id="node12"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title1857">B_:genid7</title>
     <circle
@@ -446,175 +447,112 @@
        id="ellipse1859"
        r="18" />
   </g>
-  <g
-     id="node13"
-     class="node"
-     transform="translate(4,1336)">
-    <title
-       id="title1862">Lhttp://snomed.info/sct ^^anyURI</title>
-    <polygon
-       fill="none"
-       stroke="#000000"
-       points="3198.57,-958.5 3198.57,-912.5 3025.57,-912.5 3025.57,-958.5 "
-       id="polygon1864" />
-    <text
-       text-anchor="middle"
-       x="3112.0701"
-       y="-943.29999"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text1866">http://snomed.info/sct</text>
-    <!--
-    <polyline
-       fill="none"
-       stroke="#000000"
-       points="3025.57,-935.5 3198.57,-935.5 "
-       id="polyline1868" />
-    <text
-       text-anchor="middle"
-       x="3112.0701"
-       y="-920.29999"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text1870">Datatype: xsd:anyURI</text>
-    -->
-  </g>
-  <g
-     id="edge8"
-     class="edge"
-     transform="translate(4,1336)">
-    <title
-       id="title1873">B_:genid7-&gt;Lhttp://snomed.info/sct|Datatype: xsd:anyURI</title>
-    <path
-       fill="none"
-       stroke="#000000"
-       d="m 2723.01,-987.25 c 49.06,6.54 194.32,25.91 292.52,39.01"
-       id="path1875" />
-    <polygon
-       fill="#000000"
-       stroke="#000000"
-       points="3015.1,-944.77 3016.03,-951.71 3025.48,-946.91 "
-       id="polygon1877" />
-    <text
-       text-anchor="middle"
-       x="2822.5701"
-       y="-980.29999"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text1879">fhir:v</text>
-  </g>
-  <g
-     id="node14"
-     class="node"
-     transform="translate(4,1336)">
-    <title
-       id="title1882">B_:genid8</title>
-    <circle
-       fill="none"
-       stroke="#008000"
-       cx="2407.1799"
-       cy="-989.5"
-       id="ellipse1884"
-       r="18" />
-  </g>
-  <g
-     id="edge10"
-     class="edge"
-     transform="translate(4,1336)">
-    <title
-       id="title1887">B_:genid8-&gt;B_:genid5</title>
-    <path
-       fill="none"
-       stroke="#000000"
-       d="m 2424.94,-992.56 c 49.03,-8.94 192.47,-35.12 252.39,-46.05"
-       id="path1889" />
-    <polygon
-       fill="#000000"
-       stroke="#000000"
-       points="2677.98,-1035.17 2676.72,-1042.06 2687.19,-1040.41 "
-       id="polygon1891" />
-    <text
-       text-anchor="middle"
-       x="2566.1799"
-       y="-1028.3"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text1893">fhir:code</text>
-  </g>
-  <g
-     id="edge11"
-     class="edge"
-     transform="translate(4,1336)">
-    <title
-       id="title1896">B_:genid8-&gt;B_:genid6</title>
-    <path
-       fill="none"
-       stroke="#000000"
-       d="m 2423.41,-997.36 c 22.05,-11.19 64.34,-31.93 101.77,-46.14 53.07,-20.14 117.15,-37.97 152.43,-47.24"
-       id="path1898" />
-    <polygon
-       fill="#000000"
-       stroke="#000000"
-       points="2678.79,-1087.43 2677.03,-1094.21 2687.59,-1093.34 "
-       id="polygon1900" />
-    <text
-       text-anchor="middle"
-       x="2566.1799"
-       y="-1074.3"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text1902">fhir:display</text>
-  </g>
-  <g
-     id="edge12"
-     class="edge"
-     transform="translate(4,1336)">
-    <title
-       id="title1905">B_:genid8-&gt;B_:genid7</title>
-    <path
-       fill="none"
-       stroke="#000000"
-       d="m 2425.37,-989.5 c 49.25,0 191.13,0 251.28,0"
-       id="path1907" />
-    <polygon
-       fill="#000000"
-       stroke="#000000"
-       points="2676.89,-986 2676.89,-993 2686.89,-989.5 "
-       id="polygon1909" />
-    <text
-       text-anchor="middle"
-       x="2566.1799"
-       y="-993.29999"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text1911">fhir:system</text>
-  </g>
-  <g
-     id="node15"
-     class="node"
-     transform="translate(-317.60978,1265.14)">
-    <title
-       id="title1914">Rsct:264362003</title>
-    <rect
-       fill="none"
-       stroke="#0000ff"
-       x="2665.1299"
-       y="-944.5"
-       width="79.889999"
-       height="18"
-       id="ellipse1916" />
-    <text
-       text-anchor="middle"
-       x="2705.1299"
-       y="-931.79999"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text1918">sct:264362003</text>
-  </g>
+  <polygon
+     fill="none"
+     stroke="#000000"
+     points="3198.57,-958.5 3198.57,-912.5 3025.57,-912.5 3025.57,-958.5 "
+     id="polygon1864"
+     transform="matrix(1,0,0,0.61043094,0.5,913.59686)" />
+  <text
+     text-anchor="middle"
+     x="3112.5701"
+     y="343.69882"
+     font-family="Times, serif"
+     font-size="14px"
+     id="text1866">http://snomed.info/sct</text>
+  <polygon
+     fill="none"
+     stroke="#000000"
+     points="3025.57,-912.5 3025.57,-958.5 3198.57,-958.5 3198.57,-912.5 "
+     id="polygon1864-6"
+     transform="matrix(1.0007499,0,0,0.75678961,-0.6666,1147.904)" />
+  <text
+     text-anchor="middle"
+     x="3113.7373"
+     y="437.78604"
+     font-family="Times, serif"
+     font-size="14px"
+     id="text1866-4">http://snomed.info/sct</text>
+  <path
+     fill="none"
+     stroke="#000000"
+     d="m 2723.51,344.7497 c 49.06,6.54 193.89,-18.62096 292.09,-5.52096"
+     id="path1875"
+     sodipodi:nodetypes="cc" />
+  <polygon
+     fill="#000000"
+     stroke="#000000"
+     points="3025.48,-946.91 3015.1,-944.77 3016.03,-951.71 "
+     id="polygon1877"
+     transform="translate(0.5,1286.9988)" />
+  <text
+     text-anchor="middle"
+     x="2821.5701"
+     y="336.69943"
+     font-family="Times, serif"
+     font-size="14px"
+     id="text1879">fhir:v</text>
+  <path
+     fill="none"
+     stroke="#000000"
+     d="m 2489.4204,326.11722 c 49.03,-8.94 128.4896,-21.79752 188.4096,-32.72752"
+     id="path1889"
+     sodipodi:nodetypes="cc" />
+  <polygon
+     fill="#000000"
+     stroke="#000000"
+     points="2687.19,-1040.41 2677.98,-1035.17 2676.72,-1042.06 "
+     id="polygon1891"
+     transform="translate(0.5,1331.9997)" />
+  <text
+     text-anchor="middle"
+     x="2566.6799"
+     y="303.69965"
+     font-family="Times, serif"
+     font-size="14px"
+     id="text1893">fhir:code</text>
+  <path
+     fill="none"
+     stroke="#000000"
+     d="m 2462.329,315.68657 c 22.05,-11.19 25.921,-12.97687 63.351,-27.18687 53.07,-20.14 117.15,-37.97 152.43,-47.24"
+     id="path1898"
+     sodipodi:nodetypes="ccc" />
+  <polygon
+     fill="#000000"
+     stroke="#000000"
+     points="2687.59,-1093.34 2678.79,-1087.43 2677.03,-1094.21 "
+     id="polygon1900"
+     transform="translate(0.5,1331.9997)" />
+  <text
+     text-anchor="middle"
+     x="2566.6799"
+     y="257.69965"
+     font-family="Times, serif"
+     font-size="14px"
+     id="text1902">fhir:display</text>
+  <path
+     fill="none"
+     stroke="#000000"
+     d="M 2498.1324,341.78098 2677.15,342.4997"
+     id="path1907"
+     sodipodi:nodetypes="cc" />
+  <polygon
+     fill="#000000"
+     stroke="#000000"
+     points="2686.89,-989.5 2676.89,-986 2676.89,-993 "
+     id="polygon1909"
+     transform="translate(0.5,1331.9997)" />
+  <text
+     text-anchor="middle"
+     x="2566.6799"
+     y="338.69971"
+     font-family="Times, serif"
+     font-size="14px"
+     id="text1911">fhir:system</text>
   <g
      id="node16"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title1930">B_:genid9</title>
     <circle
@@ -625,34 +563,29 @@
        id="ellipse1932"
        r="18" />
   </g>
-  <g
-     id="edge13"
-     class="edge"
-     transform="translate(4,1336)">
-    <title
-       id="title1935">B_:genid9-&gt;B_:genid8</title>
-    <path
-       fill="none"
-       stroke="#000000"
-       d="m 1969.36,-903.05 c 42.34,-1.6 155.01,-7.47 246.82,-26.45 60.13,-12.43 128.21,-36.46 164.31,-50.04"
-       id="path1937" />
-    <polygon
-       fill="#000000"
-       stroke="#000000"
-       points="2382.11,-976.41 2379.62,-982.95 2390.21,-983.23 "
-       id="polygon1939" />
-    <text
-       text-anchor="middle"
-       x="2261.6799"
-       y="-951.29999"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text1941">rdf:first</text>
-  </g>
+  <path
+     fill="none"
+     stroke="#000000"
+     d="m 1969.86,428.9497 c 42.34,-1.6 150.7186,-24.6603 242.5286,-43.6403 60.13,-12.43 79.1303,-16.67961 115.2303,-30.25961"
+     id="path1937"
+     sodipodi:nodetypes="ccc" />
+  <polygon
+     fill="#000000"
+     stroke="#000000"
+     points="2379.62,-982.95 2390.21,-983.23 2382.11,-976.41 "
+     id="polygon1939"
+     transform="translate(-52.001089,1333.4997)" />
+  <text
+     text-anchor="middle"
+     x="2262.1799"
+     y="365.6994"
+     font-family="Times, serif"
+     font-size="14px"
+     id="text1941">rdf:first</text>
   <g
      id="node18"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title1960">B_:genid10</title>
     <circle
@@ -666,7 +599,7 @@
   <g
      id="edge16"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title1965">B_:genid10-&gt;B_:genid9</title>
     <path
@@ -690,7 +623,7 @@
   <g
      id="node19"
      class="node"
-     transform="translate(-547.36005,1375.66)">
+     transform="translate(-550.8601,1371.6597)">
     <title
        id="title1974">Rfhir:CodeableConcept</title>
     <rect
@@ -712,7 +645,7 @@
   <g
      id="node20"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title1990">B_:genid11</title>
     <circle
@@ -726,7 +659,7 @@
   <g
      id="edge17"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title1995">B_:genid11-&gt;B_:genid4</title>
     <path
@@ -750,7 +683,7 @@
   <g
      id="edge18"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2004">B_:genid11-&gt;B_:genid10</title>
     <path
@@ -774,7 +707,7 @@
   <g
      id="node21"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2013">B_:genid12</title>
     <circle
@@ -788,7 +721,7 @@
   <g
      id="edge19"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2027">B_:genid12-&gt;B_:genid11</title>
     <path
@@ -812,7 +745,7 @@
   <g
      id="node22"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2036">B_:genid13</title>
     <circle
@@ -826,7 +759,7 @@
   <g
      id="edge21"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2041">B_:genid13-&gt;B_:genid3</title>
     <path
@@ -850,7 +783,7 @@
   <g
      id="edge22"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2050">B_:genid13-&gt;B_:genid12</title>
     <path
@@ -874,7 +807,7 @@
   <g
      id="node23"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2059">B_:genid14</title>
     <circle
@@ -888,13 +821,14 @@
   <g
      id="node24"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2064">L96607-7</title>
     <polygon
        fill="none"
        stroke="#000000"
-       points="3149.57,-1276.5 3149.57,-1240.5 3074.57,-1240.5 3074.57,-1276.5 "
+       points="3074.57,-1240.5 3074.57,-1276.5 3149.57,-1276.5 3149.57,-1240.5 "
+       style="fill:#ffff7f;fill-opacity:1"
        id="polygon2066" />
     <text
        text-anchor="middle"
@@ -907,7 +841,7 @@
   <g
      id="edge23"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2071">B_:genid14-&gt;L96607-7</title>
     <path
@@ -931,7 +865,7 @@
   <g
      id="node25"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2080">B_:genid15</title>
     <circle
@@ -942,53 +876,42 @@
        id="ellipse2082"
        r="18" />
   </g>
-  <g
-     id="node26"
-     class="node"
-     transform="translate(4,1336)">
-    <title
-       id="title2085">LBlood pressure panel mean systolic and mean diastolic</title>
-    <polygon
-       fill="none"
-       stroke="#000000"
-       points="3316.57,-1331.5 3316.57,-1295.5 2907.57,-1295.5 2907.57,-1331.5 "
-       id="polygon2087" />
-    <text
-       text-anchor="middle"
-       x="3112.0701"
-       y="-1309.8"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text2089">Blood pressure panel mean systolic and mean diastolic</text>
-  </g>
-  <g
-     id="edge24"
-     class="edge"
-     transform="translate(4,1336)">
-    <title
-       id="title2092">B_:genid15-&gt;LBlood pressure panel mean systolic and mean diastolic</title>
-    <path
-       fill="none"
-       stroke="#000000"
-       d="m 2723.27,-1313.5 c 31.45,0 101.8,0 174.08,0"
-       id="path2094" />
-    <polygon
-       fill="#000000"
-       stroke="#000000"
-       points="2897.55,-1310 2897.55,-1317 2907.55,-1313.5 "
-       id="polygon2096" />
-    <text
-       text-anchor="middle"
-       x="2822.5701"
-       y="-1317.3"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text2098">fhir:v</text>
-  </g>
+  <polygon
+     fill="none"
+     stroke="#000000"
+     points="3316.57,-1331.5 3316.57,-1295.5 2907.57,-1295.5 2907.57,-1331.5 "
+     id="polygon2087"
+     transform="translate(-119.5025,1331.9997)" />
+  <text
+     text-anchor="middle"
+     x="3022.5684"
+     y="22.199667"
+     font-family="Times, serif"
+     font-size="14px"
+     id="text2089">Blood pressure panel mean systolic and mean diastolic</text>
+  <path
+     fill="none"
+     stroke="#000000"
+     d="m 2723.77,18.499692 h 54.0776"
+     id="path2094"
+     sodipodi:nodetypes="cc" />
+  <polygon
+     fill="#000000"
+     stroke="#000000"
+     points="2897.55,-1317 2907.55,-1313.5 2897.55,-1310 "
+     id="polygon2096"
+     transform="translate(-121.0025,1331.9997)" />
+  <text
+     text-anchor="middle"
+     x="2763.0691"
+     y="14.699667"
+     font-family="Times, serif"
+     font-size="14px"
+     id="text2098">fhir:v</text>
   <g
      id="node27"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1291.4997)">
     <title
        id="title2101">B_:genid16</title>
     <circle
@@ -1002,13 +925,13 @@
   <g
      id="node28"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2106">Lhttp://loinc.org|Datatype: xsd:anyURI</title>
     <polygon
        fill="none"
        stroke="#000000"
-       points="3198.57,-688.5 3198.57,-642.5 3025.57,-642.5 3025.57,-688.5 "
+       points="3025.57,-642.5 3025.57,-688.5 3198.57,-688.5 3198.57,-642.5 "
        id="polygon2108" />
     <text
        text-anchor="middle"
@@ -1032,34 +955,16 @@
        id="text2114">Datatype: xsd:anyURI</text>
     -->
   </g>
-  <g
-     id="edge25"
-     class="edge"
-     transform="translate(4,1336)">
-    <title
-       id="title2117">B_:genid16-&gt;Lhttp://loinc.org|Datatype: xsd:anyURI</title>
-    <path
-       fill="none"
-       stroke="#000000"
-       d="m 2723.18,-1150.96 c 18.53,1.6 47.44,7.24 61.89,26.46 49.49,65.78 -33.06,305.43 18,370 49.93,63.15 141.76,83.35 212.2,88.98"
-       id="path2119" />
-    <polygon
-       fill="#000000"
-       stroke="#000000"
-       points="3015.28,-662.01 3015.78,-669 3025.5,-664.8 "
-       id="polygon2121" />
-    <text
-       text-anchor="middle"
-       x="2822.5701"
-       y="-758.29999"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text2123">fhir:v</text>
-  </g>
+  <polygon
+     fill="#000000"
+     stroke="#000000"
+     points="3025.5,-664.8 3015.28,-662.01 3015.78,-669 "
+     id="polygon2121"
+     transform="translate(0.5,1331.9997)" />
   <g
      id="node29"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2126">B_:genid17</title>
     <circle
@@ -1073,7 +978,7 @@
   <g
      id="edge27"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2131">B_:genid17-&gt;B_:genid14</title>
     <path
@@ -1097,7 +1002,7 @@
   <g
      id="edge28"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2140">B_:genid17-&gt;B_:genid15</title>
     <path
@@ -1118,34 +1023,29 @@
        font-size="14px"
        id="text2146">fhir:display</text>
   </g>
-  <g
-     id="edge29"
-     class="edge"
-     transform="translate(4,1336)">
-    <title
-       id="title2149">B_:genid17-&gt;B_:genid16</title>
-    <path
-       fill="none"
-       stroke="#000000"
-       d="m 2424.94,-1202.44 c 49.03,8.94 192.47,35.12 252.39,46.05"
-       id="path2151" />
-    <polygon
-       fill="#000000"
-       stroke="#000000"
-       points="2676.72,-1152.94 2677.98,-1159.83 2687.19,-1154.59 "
-       id="polygon2153" />
-    <text
-       text-anchor="middle"
-       x="2566.1799"
-       y="-1187.3"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text2155">fhir:system</text>
-  </g>
+  <path
+     fill="none"
+     stroke="#000000"
+     d="m 2425.44,129.5597 c 49.03,8.94 200.9109,-3.9475 260.8309,6.9825"
+     id="path2151"
+     sodipodi:nodetypes="cc" />
+  <polygon
+     fill="#000000"
+     stroke="#000000"
+     points="2676.72,-1152.94 2677.98,-1159.83 2687.19,-1154.59 "
+     id="polygon2153"
+     transform="translate(-0.9191,1291.1322)" />
+  <text
+     text-anchor="middle"
+     x="2566.6799"
+     y="144.69966"
+     font-family="Times, serif"
+     font-size="14px"
+     id="text2155">fhir:system</text>
   <g
      id="node30"
      class="node"
-     transform="translate(-319.10978,1319.14)">
+     transform="translate(-322.6098,1315.1397)">
     <title
        id="title2158">Rloinc:96607-7</title>
     <rect
@@ -1167,7 +1067,7 @@
   <g
      id="node31"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2174">B_:genid18</title>
     <circle
@@ -1181,7 +1081,7 @@
   <g
      id="edge30"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2188">B_:genid18-&gt;B_:genid17</title>
     <path
@@ -1205,7 +1105,7 @@
   <g
      id="node32"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2197">B_:genid19</title>
     <circle
@@ -1219,7 +1119,7 @@
   <g
      id="edge32"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2202">B_:genid19-&gt;B_:genid18</title>
     <path
@@ -1243,7 +1143,7 @@
   <g
      id="node33"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2211">B_:genid20</title>
     <circle
@@ -1254,29 +1154,24 @@
        id="ellipse2213"
        r="18" />
   </g>
-  <g
-     id="node34"
-     class="node"
-     transform="translate(4,1336)">
-    <title
-       id="title2216">L8c894ca3-4366-4b79-a086-9f3ed9fe438b</title>
-    <polygon
-       fill="none"
-       stroke="#000000"
-       points="959.18,-613.5 959.18,-577.5 650.18,-577.5 650.18,-613.5 "
-       id="polygon2218" />
-    <text
-       text-anchor="middle"
-       x="804.67999"
-       y="-591.79999"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text2220">8c894ca3-4366-4b79-a086-9f3ed9fe438b</text>
-  </g>
+  <polygon
+     fill="none"
+     stroke="#000000"
+     points="650.18,-577.5 650.18,-613.5 959.18,-613.5 959.18,-577.5 "
+     id="polygon2218"
+     style="fill:#7fff7f;fill-opacity:1"
+     transform="matrix(0.99976824,0,0,1.651281,0.6865,1731.6121)" />
+  <text
+     text-anchor="middle"
+     x="805.18011"
+     y="740.19971"
+     font-family="Times, serif"
+     font-size="14px"
+     id="text2220">8c894ca3-4366-4b79-a086-9f3ed9fe438b|asdf</text>
   <g
      id="edge33"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2223">B_:genid20-&gt;L8c894ca3-4366-4b79-a086-9f3ed9fe438b</title>
     <path
@@ -1300,7 +1195,7 @@
   <g
      id="node35"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2232">B_:genid21</title>
     <circle
@@ -1314,7 +1209,7 @@
   <g
      id="edge34"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2237">B_:genid21-&gt;B_:genid20</title>
     <path
@@ -1338,7 +1233,7 @@
   <g
      id="node36"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2246">B_:genid22</title>
     <circle
@@ -1352,13 +1247,13 @@
   <g
      id="node37"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2251">L17146006</title>
     <polygon
        fill="none"
        stroke="#000000"
-       points="3156.57,-845.5 3156.57,-809.5 3067.57,-809.5 3067.57,-845.5 "
+       points="3067.57,-809.5 3067.57,-845.5 3156.57,-845.5 3156.57,-809.5 "
        id="polygon2253" />
     <text
        text-anchor="middle"
@@ -1371,7 +1266,7 @@
   <g
      id="edge35"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2258">B_:genid22-&gt;L17146006</title>
     <path
@@ -1395,7 +1290,7 @@
   <g
      id="node38"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2267">B_:genid23</title>
     <circle
@@ -1406,53 +1301,42 @@
        id="ellipse2269"
        r="18" />
   </g>
-  <g
-     id="node39"
-     class="node"
-     transform="translate(4,1336)">
-    <title
-       id="title2272">LArterial pressure monitoring, non-invasive method (regime/therapy)</title>
-    <polygon
-       fill="none"
-       stroke="#000000"
-       points="3364.07,-790.5 3364.07,-754.5 2860.07,-754.5 2860.07,-790.5 "
-       id="polygon2274" />
-    <text
-       text-anchor="middle"
-       x="3112.0701"
-       y="-768.79999"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text2276">Arterial pressure monitoring, non-invasive method (regime/therapy)</text>
-  </g>
-  <g
-     id="edge36"
-     class="edge"
-     transform="translate(4,1336)">
-    <title
-       id="title2279">B_:genid23-&gt;LArterial pressure monitoring, non-invasive method (regime/therapy)</title>
-    <path
-       fill="none"
-       stroke="#000000"
-       d="m 2723.27,-773.46 c 24.44,0.06 72.4,0.18 126.48,0.31"
-       id="path2281" />
-    <polygon
-       fill="#000000"
-       stroke="#000000"
-       points="2849.91,-769.65 2849.93,-776.64 2859.92,-773.12 "
-       id="polygon2283" />
-    <text
-       text-anchor="middle"
-       x="2822.5701"
-       y="-777.29999"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text2285">fhir:v</text>
-  </g>
+  <polygon
+     fill="none"
+     stroke="#000000"
+     points="3364.07,-754.5 2860.07,-754.5 2860.07,-790.5 3364.07,-790.5 "
+     id="polygon2274"
+     transform="matrix(0.85335481,0,0,1.0020906,329.876,1333.6147)" />
+  <text
+     text-anchor="middle"
+     x="2989.5681"
+     y="563.19971"
+     font-family="Times, serif"
+     font-size="14px"
+     id="text2276">Arterial pressure monitoring, non-invasive method (regime/therapy)</text>
+  <path
+     fill="none"
+     stroke="#000000"
+     d="m 2723.77,558.5397 c 24.44,0.06 -17.6019,0.18 36.4781,0.31"
+     id="path2281"
+     sodipodi:nodetypes="cc" />
+  <polygon
+     fill="#000000"
+     stroke="#000000"
+     points="2849.93,-776.64 2859.92,-773.12 2849.91,-769.65 "
+     id="polygon2283"
+     transform="translate(-89.5019,1331.9997)" />
+  <text
+     text-anchor="middle"
+     x="2745.0696"
+     y="554.69971"
+     font-family="Times, serif"
+     font-size="14px"
+     id="text2285">fhir:v</text>
   <g
      id="node40"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2288">B_:genid24</title>
     <circle
@@ -1463,142 +1347,86 @@
        id="ellipse2290"
        r="18" />
   </g>
-  <g
-     id="edge37"
-     class="edge"
-     transform="translate(4,1336)">
-    <title
-       id="title2293">B_:genid24-&gt;Lhttp://snomed.info/sct|Datatype: xsd:anyURI</title>
-    <path
-       fill="none"
-       stroke="#000000"
-       d="m 2723.01,-883.75 c 49.06,-6.54 194.32,-25.91 292.52,-39.01"
-       id="path2295" />
-    <polygon
-       fill="#000000"
-       stroke="#000000"
-       points="3016.03,-919.29 3015.1,-926.23 3025.48,-924.09 "
-       id="polygon2297" />
-    <text
-       text-anchor="middle"
-       x="2822.5701"
-       y="-903.29999"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text2299">fhir:v</text>
-  </g>
-  <g
-     id="node41"
-     class="node"
-     transform="translate(4,1336)">
-    <title
-       id="title2302">B_:genid25</title>
-    <circle
-       fill="none"
-       stroke="#008000"
-       cx="2407.1799"
-       cy="-762.5"
-       id="ellipse2304"
-       r="18" />
-  </g>
-  <g
-     id="edge39"
-     class="edge"
-     transform="translate(4,1336)">
-    <title
-       id="title2307">B_:genid25-&gt;B_:genid22</title>
-    <path
-       fill="none"
-       stroke="#000000"
-       d="m 2424.83,-766.44 c 22.67,-5.34 64.53,-15.12 100.35,-23.06 53.96,-11.95 117.24,-25.21 152.24,-32.48"
-       id="path2309" />
-    <polygon
-       fill="#000000"
-       stroke="#000000"
-       points="2678.25,-818.58 2676.83,-825.43 2687.33,-824.04 "
-       id="polygon2311" />
-    <text
-       text-anchor="middle"
-       x="2566.1799"
-       y="-810.29999"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text2313">fhir:code</text>
-  </g>
-  <g
-     id="edge40"
-     class="edge"
-     transform="translate(4,1336)">
-    <title
-       id="title2316">B_:genid25-&gt;B_:genid23</title>
-    <path
-       fill="none"
-       stroke="#000000"
-       d="m 2425.37,-763.14 c 49.25,-1.83 191.13,-7.1 251.28,-9.34"
-       id="path2318" />
-    <polygon
-       fill="#000000"
-       stroke="#000000"
-       points="2677.03,-768.99 2676.77,-775.99 2686.89,-772.86 "
-       id="polygon2320" />
-    <text
-       text-anchor="middle"
-       x="2566.1799"
-       y="-774.29999"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text2322">fhir:display</text>
-  </g>
-  <g
-     id="edge41"
-     class="edge"
-     transform="translate(4,1336)">
-    <title
-       id="title2325">B_:genid25-&gt;B_:genid24</title>
-    <path
-       fill="none"
-       stroke="#000000"
-       d="m 2425.51,-763.04 c 21.43,-1.52 57.98,-7.03 81.67,-26.46 13.84,-11.34 4.38,-24.4 18,-36 44.11,-37.55 113.35,-49.95 151.48,-54.03"
-       id="path2327" />
-    <polygon
-       fill="#000000"
-       stroke="#000000"
-       points="2677.36,-876.08 2676.7,-883.05 2686.99,-880.51 "
-       id="polygon2329" />
-    <text
-       text-anchor="middle"
-       x="2566.1799"
-       y="-870.29999"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text2331">fhir:system</text>
-  </g>
-  <g
-     id="node42"
-     class="node"
-     transform="translate(-317.48982,1280.06)">
-    <title
-       id="title2334">Rsct:17146006</title>
-    <rect
-       fill="none"
-       stroke="#0000ff"
-       x="2668.1299"
-       y="-728.5"
-       width="78.190002"
-       height="18"
-       id="ellipse2336" />
-    <text
-       text-anchor="middle"
-       x="2705.1299"
-       y="-715.79999"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text2338">sct:17146006</text>
-  </g>
+  <path
+     fill="none"
+     stroke="#000000"
+     d="m 2723.51,448.2497 c 49.06,-6.54 194.82,4.56054 293.02,-8.53946"
+     id="path2295"
+     sodipodi:nodetypes="cc" />
+  <polygon
+     fill="#000000"
+     stroke="#000000"
+     points="3015.1,-926.23 3025.48,-924.09 3016.03,-919.29 "
+     id="polygon2297"
+     transform="translate(0.5,1362.0003)" />
+  <text
+     text-anchor="middle"
+     x="2823.0701"
+     y="442.20001"
+     font-family="Times, serif"
+     font-size="14px"
+     id="text2299">fhir:v</text>
+  <path
+     fill="none"
+     stroke="#000000"
+     d="m 2495.6689,509.59217 c 79.8943,-12.33934 98.703,10.76195 182.2511,0.42753"
+     id="path2309"
+     sodipodi:nodetypes="cc" />
+  <polygon
+     fill="#000000"
+     stroke="#000000"
+     points="2676.83,-825.43 2687.33,-824.04 2678.25,-818.58 "
+     id="polygon2311"
+     transform="translate(0.5,1331.9997)" />
+  <text
+     text-anchor="middle"
+     x="2566.6799"
+     y="500.6991"
+     font-family="Times, serif"
+     font-size="14px"
+     id="text2313">fhir:code</text>
+  <path
+     fill="none"
+     stroke="#000000"
+     d="M 2492.0715,518.82703 C 2533.7393,546.18379 2617,561.7597 2677.15,559.5197"
+     id="path2318"
+     sodipodi:nodetypes="cc" />
+  <polygon
+     fill="#000000"
+     stroke="#000000"
+     points="2686.89,-772.86 2677.03,-768.99 2676.77,-775.99 "
+     id="polygon2320"
+     transform="translate(0.5,1331.9997)" />
+  <text
+     text-anchor="middle"
+     x="2566.6799"
+     y="533.69916"
+     font-family="Times, serif"
+     font-size="14px"
+     id="text2322">fhir:display</text>
+  <path
+     fill="none"
+     stroke="#000000"
+     d="m 2490.6126,501.24472 c 34.7945,-21.29954 73.7293,-36.07202 186.5474,-48.77502"
+     id="path2327"
+     sodipodi:nodetypes="cc" />
+  <polygon
+     fill="#000000"
+     stroke="#000000"
+     points="2686.99,-880.51 2677.36,-876.08 2676.7,-883.05 "
+     id="polygon2329"
+     transform="translate(0.5,1331.9997)" />
+  <text
+     text-anchor="middle"
+     x="2566.6799"
+     y="461.69971"
+     font-family="Times, serif"
+     font-size="14px"
+     id="text2331">fhir:system</text>
   <g
      id="node43"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2350">B_:genid26</title>
     <circle
@@ -1612,19 +1440,15 @@
   <g
      id="edge42"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2364">B_:genid26-&gt;B_:genid25</title>
     <path
        fill="none"
        stroke="#000000"
-       d="m 1969.33,-811.3 c 46.92,-1.18 178.43,2.37 246.85,73.8 24.62,25.69 -9.84,55.85 18,78 52.77,41.98 124.17,-38.56 155.79,-80.23"
-       id="path2366" />
-    <polygon
-       fill="#000000"
-       stroke="#000000"
-       points="2392.94,-737.85 2387.32,-742.03 2396.09,-747.97 "
-       id="polygon2368" />
+       d="m 1969.33,-811.3 c 203.25,-14.05312 192.1459,-17.41209 333.4549,-5.03324"
+       id="path2366"
+       sodipodi:nodetypes="cc" />
     <text
        text-anchor="middle"
        x="2261.6799"
@@ -1636,7 +1460,7 @@
   <g
      id="node44"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2373">B_:genid27</title>
     <circle
@@ -1650,7 +1474,7 @@
   <g
      id="edge44"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2378">B_:genid27-&gt;B_:genid26</title>
     <path
@@ -1674,7 +1498,7 @@
   <g
      id="node45"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2387">B_:genid28</title>
     <circle
@@ -1688,13 +1512,14 @@
   <g
      id="node46"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2392">L96608-5</title>
     <polygon
        fill="none"
        stroke="#000000"
-       points="3149.57,-360.5 3149.57,-324.5 3074.57,-324.5 3074.57,-360.5 "
+       points="3074.57,-324.5 3074.57,-360.5 3149.57,-360.5 3149.57,-324.5 "
+       style="fill:#ffff7f;fill-opacity:1"
        id="polygon2394" />
     <text
        text-anchor="middle"
@@ -1707,7 +1532,7 @@
   <g
      id="edge45"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2399">B_:genid28-&gt;L96608-5</title>
     <path
@@ -1731,7 +1556,7 @@
   <g
      id="node47"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2408">B_:genid29</title>
     <circle
@@ -1742,29 +1567,23 @@
        id="ellipse2410"
        r="18" />
   </g>
-  <g
-     id="node48"
-     class="node"
-     transform="translate(4,1336)">
-    <title
-       id="title2413">LSystolic blood pressure mean</title>
-    <polygon
-       fill="none"
-       stroke="#000000"
-       points="3225.57,-305.5 3225.57,-269.5 2998.57,-269.5 2998.57,-305.5 "
-       id="polygon2415" />
-    <text
-       text-anchor="middle"
-       x="3112.0701"
-       y="-283.79999"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text2417">Systolic blood pressure mean</text>
-  </g>
+  <polygon
+     fill="none"
+     stroke="#000000"
+     points="3225.57,-269.5 2998.57,-269.5 2998.57,-305.5 3225.57,-305.5 "
+     id="polygon2415"
+     transform="matrix(0.88872862,0,0,1.0015704,334.1268,1332.4512)" />
+  <text
+     text-anchor="middle"
+     x="3097.5698"
+     y="1048.1996"
+     font-family="Times, serif"
+     font-size="14px"
+     id="text2417">Systolic blood pressure mean</text>
   <g
      id="edge46"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2420">B_:genid29-&gt;LSystolic blood pressure mean</title>
     <path
@@ -1788,7 +1607,7 @@
   <g
      id="node49"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2429">B_:genid30</title>
     <circle
@@ -1799,34 +1618,75 @@
        id="ellipse2431"
        r="18" />
   </g>
+  <path
+     fill="none"
+     stroke="#000000"
+     d="m 2723.71,883.5097 c 119.2527,18.97192 227.5537,56.84852 291.8467,57.0176"
+     id="path2436"
+     sodipodi:nodetypes="cc" />
   <g
-     id="edge47"
-     class="edge"
-     transform="translate(4,1336)">
+     id="node28-89"
+     class="node"
+     transform="translate(-9.9689,789.75498)">
     <title
-       id="title2434">B_:genid30-&gt;Lhttp://loinc.org|Datatype: xsd:anyURI</title>
-    <path
+       id="title2106-6">Lhttp://loinc.org|Datatype: xsd:anyURI</title>
+    <polygon
        fill="none"
        stroke="#000000"
-       d="m 2723.21,-448.49 c 28.98,0.7 87.68,-2.44 118.86,-36.01 30.73,-33.09 -11.72,-66 18,-100 38.79,-44.37 102.02,-64.6 155.31,-73.75"
-       id="path2436" />
-    <polygon
-       fill="#000000"
-       stroke="#000000"
-       points="3016.23,-654.84 3015.12,-661.75 3025.55,-659.88 "
-       id="polygon2438" />
+       points="3025.57,-642.5 3025.57,-688.5 3198.57,-688.5 3198.57,-642.5 "
+       id="polygon2108-0" />
     <text
        text-anchor="middle"
-       x="2822.5701"
-       y="-488.29999"
+       x="3112.0701"
+       y="-673.29999"
        font-family="Times, serif"
        font-size="14px"
-       id="text2440">fhir:v</text>
+       id="text2110-7">http://loinc.org ^^anyURI</text>
+    <!--
+    <polyline
+       fill="none"
+       stroke="#000000"
+       points="3025.57,-665.5 3198.57,-665.5 "
+       id="polyline2112" />
+    <text
+       text-anchor="middle"
+       x="3112.0701"
+       y="-650.29999"
+       font-family="Times, serif"
+       font-size="14px"
+       id="text2114">Datatype: xsd:anyURI</text>
+    -->
   </g>
+  <polygon
+     fill="none"
+     stroke="#000000"
+     points="3198.57,-688.5 3198.57,-642.5 3025.57,-642.5 3025.57,-688.5 "
+     id="polygon2108-8"
+     transform="matrix(1.005581,0,0,0.63256709,-16.5455,1366.3205)" />
+  <text
+     text-anchor="middle"
+     x="3109.5068"
+     y="949.97815"
+     font-family="Times, serif"
+     font-size="14px"
+     id="text2110-2">http://loinc.org ^^anyURI</text>
+  <polygon
+     fill="#000000"
+     stroke="#000000"
+     points="3025.55,-659.88 3016.23,-654.84 3015.12,-661.75 "
+     id="polygon2438-6"
+     transform="translate(0.4367,1602.2773)" />
+  <text
+     text-anchor="middle"
+     x="2823.0701"
+     y="843.69971"
+     font-family="Times, serif"
+     font-size="14px"
+     id="text2440">fhir:v</text>
   <g
      id="node50"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2443">B_:genid31</title>
     <circle
@@ -1840,7 +1700,7 @@
   <g
      id="edge49"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2448">B_:genid31-&gt;B_:genid28</title>
     <path
@@ -1864,7 +1724,7 @@
   <g
      id="edge50"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2457">B_:genid31-&gt;B_:genid29</title>
     <path
@@ -1888,7 +1748,7 @@
   <g
      id="edge51"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2466">B_:genid31-&gt;B_:genid30</title>
     <path
@@ -1912,7 +1772,7 @@
   <g
      id="node51"
      class="node"
-     transform="translate(-316.32978,1272.82)">
+     transform="translate(-319.8298,1268.8197)">
     <title
        id="title2475">Rloinc:96608-5</title>
     <rect
@@ -1934,7 +1794,7 @@
   <g
      id="node52"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2491">B_:genid32</title>
     <circle
@@ -1948,7 +1808,7 @@
   <g
      id="edge52"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2505">B_:genid32-&gt;B_:genid31</title>
     <path
@@ -1972,7 +1832,7 @@
   <g
      id="node53"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2514">B_:genid33</title>
     <circle
@@ -1986,7 +1846,7 @@
   <g
      id="edge54"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2519">B_:genid33-&gt;B_:genid32</title>
     <path
@@ -2010,7 +1870,7 @@
   <g
      id="node54"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2528">B_:genid34</title>
     <circle
@@ -2021,29 +1881,35 @@
        id="ellipse2530"
        r="18" />
   </g>
-  <g
-     id="node55"
-     class="node"
-     transform="translate(4,1336)">
-    <title
-       id="title2533">Lmm[Hg]</title>
-    <polygon
-       fill="none"
-       stroke="#000000"
-       points="2444.68,-344.5 2444.68,-308.5 2369.68,-308.5 2369.68,-344.5 "
-       id="polygon2535" />
-    <text
-       text-anchor="middle"
-       x="2407.1799"
-       y="-322.79999"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text2537">mm[Hg]</text>
-  </g>
+  <polygon
+     fill="none"
+     stroke="#000000"
+     points="2444.68,-308.5 2369.68,-308.5 2369.68,-344.5 2444.68,-344.5 "
+     id="polygon2535"
+     style="fill:#7fff7f;fill-opacity:1"
+     transform="matrix(1,0,0,1.5710305,0.5,1528.7197)" />
+  <text
+     xml:space="preserve"
+     style="font-size:22.0004px;line-height:1.25;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#922525;fill-opacity:1;stroke-width:0.750016"
+     x="2405.4583"
+     y="1034.7421"
+     id="text37255-3-2"><tspan
+       sodipodi:role="line"
+       id="tspan37253-3-6"
+       style="fill:#7f1f1f;fill-opacity:1;stroke-width:0.750016"
+       x="2405.4583"
+       y="1034.7421">units</tspan></text>
+  <text
+     text-anchor="middle"
+     x="2407.6799"
+     y="1009.1997"
+     font-family="Times, serif"
+     font-size="14px"
+     id="text2537">mm[Hg]</text>
   <g
      id="edge55"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2540">B_:genid34-&gt;Lmm[Hg]</title>
     <path
@@ -2067,7 +1933,7 @@
   <g
      id="node56"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2549">B_:genid35</title>
     <circle
@@ -2081,13 +1947,13 @@
   <g
      id="node57"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2554">Lhttp://unitsofmeasure.org ^^anyURI</title>
     <polygon
        fill="none"
        stroke="#000000"
-       points="2507.18,-265.5 2507.18,-219.5 2307.18,-219.5 2307.18,-265.5 "
+       points="2307.18,-219.5 2307.18,-265.5 2507.18,-265.5 2507.18,-219.5 "
        id="polygon2556" />
     <text
        text-anchor="middle"
@@ -2114,7 +1980,7 @@
   <g
      id="edge56"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2565">B_:genid35-&gt;Lhttp://unitsofmeasure.org|Datatype: xsd:anyURI</title>
     <path
@@ -2138,7 +2004,7 @@
   <g
      id="node58"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2574">B_:genid36</title>
     <circle
@@ -2152,7 +2018,7 @@
   <g
      id="edge57"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2579">B_:genid36-&gt;Lmm[Hg]</title>
     <path
@@ -2176,7 +2042,7 @@
   <g
      id="node59"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2588">B_:genid37</title>
     <circle
@@ -2190,14 +2056,15 @@
   <g
      id="node60"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2593">L154|Datatype</title>
     <polygon
        fill="none"
        stroke="#000000"
-       points="2495.18,-175.5 2495.18,-129.5 2319.18,-129.5 2319.18,-175.5 "
-       id="polygon2595" />
+       points="2319.18,-129.5 2319.18,-175.5 2495.18,-175.5 2495.18,-129.5 "
+       id="polygon2595"
+       style="fill:#7fff7f;fill-opacity:1" />
     <text
        text-anchor="middle"
        x="2407.1799"
@@ -2220,10 +2087,21 @@
        id="text2601">Datatype: xsd:decimal</text>
     -->
   </g>
+  <text
+     xml:space="preserve"
+     style="font-size:22.0004px;line-height:1.25;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#922525;fill-opacity:1;stroke-width:0.750016"
+     x="2407.9902"
+     y="1194.9968"
+     id="text37255-38"><tspan
+       sodipodi:role="line"
+       id="tspan37253-0"
+       style="fill:#7f1f1f;fill-opacity:1;stroke-width:0.750016"
+       x="2407.9902"
+       y="1194.9968">bp:sysVal</tspan></text>
   <g
      id="edge58"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2604">B_:genid37-&gt;L154|Datatype: xsd:decimal</title>
     <path
@@ -2247,7 +2125,7 @@
   <g
      id="node61"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2613">B_:genid38</title>
     <circle
@@ -2261,7 +2139,7 @@
   <g
      id="edge60"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2618">B_:genid38-&gt;B_:genid34</title>
     <path
@@ -2285,7 +2163,7 @@
   <g
      id="edge61"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2627">B_:genid38-&gt;B_:genid35</title>
     <path
@@ -2309,7 +2187,7 @@
   <g
      id="edge62"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2636">B_:genid38-&gt;B_:genid36</title>
     <path
@@ -2333,7 +2211,7 @@
   <g
      id="edge63"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2645">B_:genid38-&gt;B_:genid37</title>
     <path
@@ -2357,7 +2235,7 @@
   <g
      id="node62"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(-650.5501,1429.0497)">
     <title
        id="title2654">Rfhir:Quantity</title>
     <rect
@@ -2379,7 +2257,7 @@
   <g
      id="node62-3"
      class="node"
-     transform="translate(-647.13012,1201.57)">
+     transform="translate(-650.6301,1197.5697)">
     <title
        id="title2654-6">Rfhir:Quantity</title>
     <rect
@@ -2401,7 +2279,7 @@
   <g
      id="node63"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2670">B_:genid39</title>
     <circle
@@ -2415,7 +2293,7 @@
   <g
      id="edge64"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2675">B_:genid39-&gt;B_:genid33</title>
     <path
@@ -2439,7 +2317,7 @@
   <g
      id="edge65"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2684">B_:genid39-&gt;B_:genid38</title>
     <path
@@ -2463,7 +2341,7 @@
   <g
      id="node64"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2693">B_:genid40</title>
     <circle
@@ -2477,13 +2355,14 @@
   <g
      id="node65"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2698">L96609-3</title>
     <polygon
        fill="none"
        stroke="#000000"
-       points="3149.57,-520.5 3149.57,-484.5 3074.57,-484.5 3074.57,-520.5 "
+       points="3074.57,-484.5 3074.57,-520.5 3149.57,-520.5 3149.57,-484.5 "
+       style="fill:#ffff7f;fill-opacity:1"
        id="polygon2700" />
     <text
        text-anchor="middle"
@@ -2496,7 +2375,7 @@
   <g
      id="edge66"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2705">B_:genid40-&gt;L96609-3</title>
     <path
@@ -2520,7 +2399,7 @@
   <g
      id="node66"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2714">B_:genid41</title>
     <circle
@@ -2531,29 +2410,23 @@
        id="ellipse2716"
        r="18" />
   </g>
-  <g
-     id="node67"
-     class="node"
-     transform="translate(4,1336)">
-    <title
-       id="title2719">LDiastolic blood pressure mean</title>
-    <polygon
-       fill="none"
-       stroke="#000000"
-       points="3228.57,-575.5 3228.57,-539.5 2995.57,-539.5 2995.57,-575.5 "
-       id="polygon2721" />
-    <text
-       text-anchor="middle"
-       x="3112.0701"
-       y="-553.79999"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text2723">Diastolic blood pressure mean</text>
-  </g>
+  <polygon
+     fill="none"
+     stroke="#000000"
+     points="2995.57,-539.5 2995.57,-575.5 3228.57,-575.5 3228.57,-539.5 "
+     id="polygon2721"
+     transform="matrix(0.87637197,0,0,1.0015092,370.8093,1332.8411)" />
+  <text
+     text-anchor="middle"
+     x="3097.5698"
+     y="778.19971"
+     font-family="Times, serif"
+     font-size="14px"
+     id="text2723">Diastolic blood pressure mean</text>
   <g
      id="edge67"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2726">B_:genid41-&gt;LDiastolic blood pressure mean</title>
     <path
@@ -2577,7 +2450,7 @@
   <g
      id="node68"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2735">B_:genid42</title>
     <circle
@@ -2591,7 +2464,7 @@
   <g
      id="edge68"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2740">B_:genid42-&gt;Lhttp://loinc.org|Datatype: xsd:anyURI</title>
     <path
@@ -2613,9 +2486,33 @@
        id="text2746">fhir:v</text>
   </g>
   <g
+     id="edge68-1"
+     class="edge"
+     transform="translate(-8.9403,790.74137)">
+    <title
+       id="title2740-0">B_:genid42-&gt;Lhttp://loinc.org|Datatype: xsd:anyURI</title>
+    <path
+       fill="none"
+       stroke="#000000"
+       d="m 2723.27,-665.5 c 49.21,0 193.7,0 291.71,0"
+       id="path2742-1" />
+    <polygon
+       fill="#000000"
+       stroke="#000000"
+       points="3025.21,-665.5 3015.21,-662 3015.21,-669 "
+       id="polygon2744-3" />
+    <text
+       text-anchor="middle"
+       x="2822.5701"
+       y="-669.29999"
+       font-family="Times, serif"
+       font-size="14px"
+       id="text2746-7">fhir:v</text>
+  </g>
+  <g
      id="node69"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2749">B_:genid43</title>
     <circle
@@ -2629,7 +2526,7 @@
   <g
      id="edge70"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2754">B_:genid43-&gt;B_:genid40</title>
     <path
@@ -2653,7 +2550,7 @@
   <g
      id="edge71"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2763">B_:genid43-&gt;B_:genid41</title>
     <path
@@ -2677,7 +2574,7 @@
   <g
      id="edge72"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2772">B_:genid43-&gt;B_:genid42</title>
     <path
@@ -2701,7 +2598,7 @@
   <g
      id="node70"
      class="node"
-     transform="translate(-314.57978,1323.94)">
+     transform="translate(-318.0798,1319.9397)">
     <title
        id="title2781">Rloinc:96609-3</title>
     <rect
@@ -2723,7 +2620,7 @@
   <g
      id="node71"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2797">B_:genid44</title>
     <circle
@@ -2734,34 +2631,34 @@
        id="ellipse2799"
        r="18" />
   </g>
-  <g
-     id="edge73"
-     class="edge"
-     transform="translate(4,1336)">
-    <title
-       id="title2811">B_:genid44-&gt;B_:genid43</title>
-    <path
-       fill="none"
-       stroke="#000000"
-       d="m 1969.36,-712.64 c 45.32,-4.7 169.95,-11.28 246.82,46.14 14.66,10.94 3.03,26.51 18,37 43.35,30.37 108.55,27.45 144.96,22.69"
-       id="path2813" />
-    <polygon
-       fill="#000000"
-       stroke="#000000"
-       points="2380.06,-603.41 2379.05,-610.34 2389.45,-608.32 "
-       id="polygon2815" />
-    <text
-       text-anchor="middle"
-       x="2261.6799"
-       y="-633.29999"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text2817">rdf:first</text>
-  </g>
+  <path
+     fill="none"
+     stroke="#000000"
+     d="m 1969.86,619.3597 c 45.32,-4.7 169.95,-11.28 246.82,46.14 14.66,10.94 3.03,26.51 18,37 43.35,30.37 108.55,27.45 144.96,22.69"
+     id="path2813" />
+  <polygon
+     fill="#000000"
+     stroke="#000000"
+     points="2389.45,-608.32 2380.06,-603.41 2379.05,-610.34 "
+     id="polygon2815"
+     transform="translate(0.5,1331.9997)" />
+  <polygon
+     fill="#000000"
+     stroke="#000000"
+     points="2379.05,-610.34 2389.45,-608.32 2380.06,-603.41 "
+     id="polygon2815-5"
+     transform="translate(-75.76509,1123.0064)" />
+  <text
+     text-anchor="middle"
+     x="2262.1799"
+     y="698.69971"
+     font-family="Times, serif"
+     font-size="14px"
+     id="text2817">rdf:first</text>
   <g
      id="node72"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2820">B_:genid45</title>
     <circle
@@ -2775,7 +2672,7 @@
   <g
      id="edge75"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2825">B_:genid45-&gt;B_:genid44</title>
     <path
@@ -2799,7 +2696,7 @@
   <g
      id="node73"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2834">B_:genid46</title>
     <circle
@@ -2813,7 +2710,7 @@
   <g
      id="edge76"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2839">B_:genid46-&gt;Lmm[Hg]</title>
     <path
@@ -2837,7 +2734,7 @@
   <g
      id="node74"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2848">B_:genid47</title>
     <circle
@@ -2851,7 +2748,7 @@
   <g
      id="edge77"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2853">B_:genid47-&gt;Lhttp://unitsofmeasure.org|Datatype: xsd:anyURI</title>
     <path
@@ -2875,7 +2772,7 @@
   <g
      id="node75"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2862">B_:genid48</title>
     <circle
@@ -2889,7 +2786,7 @@
   <g
      id="edge78"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2867">B_:genid48-&gt;Lmm[Hg]</title>
     <path
@@ -2913,7 +2810,7 @@
   <g
      id="node76"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2876">B_:genid49</title>
     <circle
@@ -2927,14 +2824,15 @@
   <g
      id="node77"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2881">L96|Datatype</title>
     <polygon
        fill="none"
        stroke="#000000"
-       points="2495.18,-412.5 2495.18,-366.5 2319.18,-366.5 2319.18,-412.5 "
-       id="polygon2883" />
+       points="2319.18,-366.5 2319.18,-412.5 2495.18,-412.5 2495.18,-366.5 "
+       id="polygon2883"
+       style="fill:#7fff7f;fill-opacity:1" />
     <text
        text-anchor="middle"
        x="2407.1799"
@@ -2957,10 +2855,21 @@
        id="text2889">Datatype: xsd:decimal</text>
     -->
   </g>
+  <text
+     xml:space="preserve"
+     style="font-size:22.0004px;line-height:1.25;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#922525;fill-opacity:1;stroke-width:0.750016"
+     x="2407.1433"
+     y="955.0365"
+     id="text37255-3"><tspan
+       sodipodi:role="line"
+       id="tspan37253-3"
+       style="fill:#7f1f1f;fill-opacity:1;stroke-width:0.750016"
+       x="2407.1433"
+       y="955.0365">bp:diaVal</tspan></text>
   <g
      id="edge79"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2892">B_:genid49-&gt;L96|Datatype: xsd:decimal</title>
     <path
@@ -2984,7 +2893,7 @@
   <g
      id="node78"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2901">B_:genid50</title>
     <circle
@@ -2998,7 +2907,7 @@
   <g
      id="edge81"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2915">B_:genid50-&gt;B_:genid46</title>
     <path
@@ -3022,7 +2931,7 @@
   <g
      id="edge82"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2924">B_:genid50-&gt;B_:genid47</title>
     <path
@@ -3046,7 +2955,7 @@
   <g
      id="edge83"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2933">B_:genid50-&gt;B_:genid48</title>
     <path
@@ -3070,7 +2979,7 @@
   <g
      id="edge84"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2942">B_:genid50-&gt;B_:genid49</title>
     <path
@@ -3094,7 +3003,7 @@
   <g
      id="node79"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2951">B_:genid51</title>
     <circle
@@ -3108,7 +3017,7 @@
   <g
      id="edge85"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2956">B_:genid51-&gt;B_:genid45</title>
     <path
@@ -3132,7 +3041,7 @@
   <g
      id="edge86"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2965">B_:genid51-&gt;B_:genid50</title>
     <path
@@ -3156,7 +3065,7 @@
   <g
      id="node80"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2974">B_:genid52</title>
     <circle
@@ -3170,7 +3079,7 @@
   <g
      id="edge87"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2988">B_:genid52-&gt;B_:genid51</title>
     <path
@@ -3194,7 +3103,7 @@
   <g
      id="node81"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title2997">B_:genid53</title>
     <circle
@@ -3208,7 +3117,7 @@
   <g
      id="edge89"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title3002">B_:genid53-&gt;B_:genid39</title>
     <path
@@ -3232,7 +3141,7 @@
   <g
      id="edge90"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title3011">B_:genid53-&gt;B_:genid52</title>
     <path
@@ -3256,7 +3165,7 @@
   <g
      id="node82"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title3020">B_:genid54</title>
     <circle
@@ -3270,7 +3179,7 @@
   <g
      id="edge93"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title3025">B_:genid54-&gt;B_:genid13</title>
     <path
@@ -3294,7 +3203,7 @@
   <g
      id="edge94"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title3034">B_:genid54-&gt;B_:genid19</title>
     <path
@@ -3318,7 +3227,7 @@
   <g
      id="edge96"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title3052">B_:genid54-&gt;B_:genid27</title>
     <path
@@ -3342,7 +3251,7 @@
   <g
      id="edge97"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title3061">B_:genid54-&gt;B_:genid53</title>
     <path
@@ -3366,7 +3275,7 @@
   <g
      id="node83"
      class="node"
-     transform="translate(-195.43,1237.37)">
+     transform="translate(-198.93,1233.3697)">
     <title
        id="title3070">Rfhir:Observation</title>
     <rect
@@ -3388,7 +3297,7 @@
   <g
      id="node84"
      class="node"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title3086">Rfhir:treeRoot</title>
     <ellipse
@@ -3410,7 +3319,7 @@
   <g
      id="edge92"
      class="edge"
-     transform="translate(4,1336)">
+     transform="translate(0.5,1331.9997)">
     <title
        id="title3093">B_:genid54-&gt;Rfhir:treeRoot</title>
     <path
@@ -3434,19 +3343,64 @@
   <path
      fill="none"
      stroke="#000000"
-     d="m 37.49,580.78 c 6.11,3.54 13.45,7.3 20.51,9.72 64.46,22.09 144.81,30.45 185.99,33.45"
+     d="m 33.99,576.7797 c 6.11,3.54 13.45,7.3 20.51,9.72 64.46,22.09 144.81,30.45 185.99,33.45"
      id="path3045" />
   <polygon
      fill="#000000"
      stroke="#000000"
      points="250.05,-711.37 239.83,-708.55 240.31,-715.54 "
      id="polygon3047"
-     transform="translate(4,1336)" />
+     transform="translate(0.5,1331.9997)" />
   <text
      text-anchor="middle"
-     x="168.00113"
-     y="604.70074"
+     x="164.50114"
+     y="600.70044"
      font-family="Times, serif"
      font-size="14px"
      id="text3049">fhir:subject</text>
+  <text
+     xml:space="preserve"
+     style="font-size:22.0004px;line-height:1.25;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#922525;fill-opacity:1;stroke-width:0.750016"
+     x="800.77338"
+     y="764.96741"
+     id="text37255"><tspan
+       sodipodi:role="line"
+       id="tspan37253"
+       style="fill:#7f1f1f;fill-opacity:1;stroke-width:0.750016"
+       x="800.77338"
+       y="764.96741">bp:patientId</tspan></text>
+  <g
+     id="node12-9"
+     class="node"
+     transform="matrix(0.99960838,0,0,0.99960838,1862.262,787.80952)">
+    <title
+       id="title76444">Rsct:17146006</title>
+    <ellipse
+       fill="none"
+       stroke="#0000ff"
+       cx="543.16998"
+       cy="-276.5"
+       rx="88"
+       ry="28"
+       style="fill:#7fff7f;fill-opacity:1;stroke-width:3"
+       id="ellipse76446" />
+    <text
+       text-anchor="middle"
+       x="543.16998"
+       y="-284.79999"
+       font-family="Times, serif"
+       font-size="14px"
+       id="text76448">sct:17146006</text>
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-size:22.0004px;line-height:1.25;font-family:Courier;-inkscape-font-specification:'Courier, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#922525;fill-opacity:1;stroke-width:0.750016"
+     x="2401.3201"
+     y="521.41296"
+     id="text37255-3-5-8"><tspan
+       sodipodi:role="line"
+       id="tspan37253-3-2-8"
+       style="fill:#7f1f1f;fill-opacity:1;stroke-width:0.750016"
+       x="2401.3201"
+       y="521.41296">bp:method</tspan></text>
 </svg>
