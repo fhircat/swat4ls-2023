@@ -5,18 +5,19 @@ PREFIX sct:  <http://snomed.info/id#>
 PREFIX loinc: <https://loinc.org/rdf/>
 PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
 
-[]
+<https://example.org/MedicationOrder/de311dbd-da50-4d26-9360-696a0a7dc8f7>
   a fhir:MedicationRequest ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:DomainResource.extension   
-    [ fhir:Extension.url            
-      [ fhir:value "http://hl7.org/fhir/us/rx/StructureDefinition/MedicationAdherenceExt"^^xsd:anyURI ] ;
-      fhir:Extension.valueQuantity  
-        [ fhir:Quantity.unit  [ fhir:value  "%" ] ;
-          fhir:Quantity.value  [ fhir:value  "80"^^xsd:decimal ]
-        ] ;
-      fhir:index 0
+  fhir:id [ fhir:v "de311dbd-da50-4d26-9360-696a0a7dc8f7" ] ;
+  fhir:extension ( [
+    fhir:url [
+      fhir:v "http://hl7.org/fhir/us/rx/StructureDefinition/MedicationAdherenceExt"^^xsd:anyURI
     ] ;
+    fhir:valueQuantity [
+      fhir:unit  [ fhir:v  "%" ] ;
+      fhir:value  [ fhir:v  "80"^^xsd:decimal ]
+    ] ;
+  ] ) ;
   fhir:medicationCodeableConcept [
     fhir:coding ( [
       fhir:code    [ fhir:v "197361" ] ;

@@ -5,9 +5,10 @@ PREFIX sct:  <http://snomed.info/id#>
 PREFIX loinc: <https://loinc.org/rdf/>
 PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
 
-[]
+<https://example.org/MedicationOrder/de311dbd-da50-4d26-9360-696a0a7dc8f7>
   a fhir:MedicationOrder ;
   fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "de311dbd-da50-4d26-9360-696a0a7dc8f7" ] ;
   fhir:medicationCodeableConcept [
     fhir:coding ( [
       fhir:code    [ fhir:v "197361" ] ;
