@@ -4,7 +4,7 @@
     {
       "url": "http://hl7.org/fhir/us/rx/StructureDefinition/MedicationAdherenceExt",
       "valueQuantity": {
-        "value": 80,
+        "value": 90,
         "unit": "%"
       }
     }
