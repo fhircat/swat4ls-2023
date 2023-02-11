@@ -1,5 +1,6 @@
 {
   "resourceType": "MedicationOrder",
+  "id": "de311dbd-da50-4d26-9360-696a0a7dc8f7",
   "extension": [
     {
       "url": "http://hl7.org/fhir/us/rx/StructureDefinition/MedicationAdherenceExt",
