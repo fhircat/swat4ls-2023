@@ -1,0 +1,33 @@
+PREFIX lm: <http://example.com/lm>
+PREFIX fhir: <http://hl7.org/fhir/>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sct:  <http://snomed.info/id#>
+PREFIX loinc: <https://loinc.org/rdf/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX rxnorm: <http://www.nlm.nih.gov/research/umls/rxnorm>
+PREFIX Map: <http://shex.io/extensions/Map/#>
+PREFIX mr: <http://a.example/shexmap/mr>
+
+start = @<BPLogicalModel>
+
+<RxLogicalModel> {
+  a [lm:MedicationOrder] ;
+  lm:identifier xsd:string %Map:{ mr:id %} ;
+  lm:medicationAdherence {
+    a [lm:Quantity] ;
+    lm:unit  xsd:string %Map:{ mr:adherenceUnit %} ;
+    lm:value xsd:decimal %Map:{ mr:adherenceValue %}
+  } ;
+  lm:medication {
+    lm:code IRI %Map:{ mr:medication %} ;
+  } ;
+  lm:subject {
+    a [lm:Patient] ;
+    lm:identifier xsd:string %Map:{ mr:subject %}
+  } ;
+  lm:dosageInstruction {
+    lm:frequency IRI %Map:{ mr:frequency %} ;
+    lm:route IRI %Map:{ mr:route %} ;
+  } ;
+}

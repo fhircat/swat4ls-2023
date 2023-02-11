@@ -1,0 +1,54 @@
+PREFIX fhir: <http://hl7.org/fhir/>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sct:  <http://snomed.info/id#>
+PREFIX loinc: <https://loinc.org/rdf/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX rxnorm: <http://www.nlm.nih.gov/research/umls/rxnorm>
+PREFIX Map: <http://shex.io/extensions/Map/#>
+PREFIX mr: <http://a.example/shexmap/mr>
+
+START=<MedicationRequest>
+
+<MedicationRequest> {
+  a [fhir:MedicationRequest] ;
+  fhir:id { fhir:v xsd:string %Map:{ mr:id %} } ;
+  fhir:extension { rdf:first {
+    fhir:url {
+      fhir:v ["http://hl7.org/fhir/us/rx/StructureDefinition/MedicationAdherenceExt"^^xsd:anyURI]
+    } ;
+    fhir:valueQuantity {
+      fhir:unit  { fhir:v  xsd:string %Map:{ mr:adherenceUnit %} } ;
+      fhir:value  { fhir:v  xsd:decimal %Map:{ mr:adherenceValue %} }
+    } ;
+  } } ;
+  fhir:medicationCodeableConcept {
+    fhir:coding { rdf:first {
+      a IRI %Map:{ mr:medication %} ;
+      fhir:code    { fhir:v xsd:string } ;
+      fhir:display { fhir:v xsd:string } ;
+      fhir:system  { fhir:v xsd:anyURI } ;
+    } }
+  } ;
+  fhir:subject { fhir:Reference.reference  { fhir:v xsd:string %Map:{ mr:subject %} } } ;
+  fhir:dosageInstruction { rdf:first {
+    fhir:timing {
+      fhir:code {
+        fhir:coding { rdf:first {
+          a IRI %Map:{ mr:frequency %} ;
+          fhir:code    { fhir:v xsd:string } ;
+          fhir:display { fhir:v xsd:string } ;
+          fhir:system  { fhir:v xsd:anyURI } ;
+        } }
+      }
+    } ;
+    fhir:route {
+      fhir:coding { rdf:first {
+        a IRI %Map:{ mr:route %} ;
+        fhir:code    { fhir:v xsd:string } ;
+        fhir:display { fhir:v xsd:string } ;
+        fhir:system  { fhir:v xsd:anyURI } ;
+      } }
+    } ;
+  } } ;
+}
