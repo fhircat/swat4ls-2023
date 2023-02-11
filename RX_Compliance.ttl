@@ -10,10 +10,6 @@ prefix xsd:  <http://www.w3.org/2001/XMLSchema#>
           lm:value 90;
           lm:unit "%";
       ];
-    lm:confidence
-      [   a lm:Quantity;
-          lm:value 90;
-          lm:unit "%";
-      ];
+    lm:rxId "de311dbd-da50-4d26-9360-696a0a7dc8f7"
 ].
 

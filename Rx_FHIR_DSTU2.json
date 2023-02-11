@@ -1,5 +1,14 @@
 {
   "resourceType": "MedicationOrder",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/us/rx/StructureDefinition/MedicationAdherenceExt",
+      "valueQuantity": {
+        "value": 80,
+        "unit": "%"
+      }
+    }
+  ],
   "patient": {
     "reference": "de311dbd-da50-4d26-9360-696a0a7dc8f7"
   },
