@@ -15,7 +15,7 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
     ] ;
     fhir:valueQuantity [
       fhir:unit  [ fhir:v  "%" ] ;
-      fhir:value  [ fhir:v  "80"^^xsd:decimal ]
+      fhir:value  [ fhir:v  "90"^^xsd:decimal ]
     ] ;
   ] ) ;
   fhir:medicationCodeableConcept [
