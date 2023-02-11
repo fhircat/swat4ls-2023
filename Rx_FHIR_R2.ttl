@@ -18,7 +18,7 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
   fhir:subject [ fhir:Reference.reference  [ fhir:v "de311dbd-da50-4d26-9360-696a0a7dc8f7" ] ] ;
   fhir:dosageInstruction ( [
     fhir:timing [
-      fhir:Timing.code [
+      fhir:code [
         fhir:coding ( [
           fhir:code    [ fhir:v "QD" ] ;
           fhir:system  [ fhir:v "http://hl7.org/fhir/timing-abbreviation"^^xsd:anyURI ] ;

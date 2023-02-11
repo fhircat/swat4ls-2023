@@ -6,7 +6,7 @@ PREFIX loinc: <https://loinc.org/rdf/>
 PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
 
 []
-  a fhir:MedicationOrder ;
+  a fhir:MedicationRequest ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:medicationCodeableConcept [
     fhir:coding ( [
@@ -18,7 +18,7 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
   fhir:subject [ fhir:Reference.reference  [ fhir:v "de311dbd-da50-4d26-9360-696a0a7dc8f7" ] ] ;
   fhir:dosageInstruction ( [
     fhir:timing [
-      fhir:Timing.code [
+      fhir:code [
         fhir:coding ( [
           fhir:code    [ fhir:v "229797004" ] ;
           fhir:display [ fhir:v "Once daily (qualifier value)" ] ;
