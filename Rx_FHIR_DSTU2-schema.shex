@@ -1,0 +1,47 @@
+PREFIX fhir: <http://hl7.org/fhir/>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sct:  <http://snomed.info/id#>
+PREFIX loinc: <https://loinc.org/rdf/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX rxnorm: <http://www.nlm.nih.gov/research/umls/rxnorm>
+PREFIX Map: <http://shex.io/extensions/Map/#>
+PREFIX mr: <http://a.example/shexmap/mr>
+
+START=<MedicationOrder>
+
+<MedicationOrder> {
+  a [fhir:MedicationOrder] ;
+  fhir:id { fhir:v xsd:string %Map:{ mr:id %} } ;
+
+  fhir:medicationCodeableConcept {
+    fhir:coding { rdf:first {
+      a IRI %Map:{ mr:medication %} ;
+      fhir:code    { fhir:v xsd:string %Map:{ mr:medicationCode %} } ;
+      fhir:display { fhir:v xsd:string %Map:{ mr:medicationDisplay %} } ;
+      fhir:system  { fhir:v xsd:anyURI %Map:{ mr:medicationSystem %} } ;
+    } }
+  } ;
+
+  fhir:subject { fhir:Reference.reference  { fhir:v xsd:string %Map:{ mr:subject %} } } ;
+  fhir:dosageInstruction { rdf:first {
+    fhir:timing {
+      fhir:code {
+        fhir:coding { rdf:first {
+#          a IRI %Map:{ mr:frequency %} ;
+          fhir:code    { fhir:v ["QD"] } ;
+#          fhir:display { fhir:v xsd:string } ;
+          fhir:system  { fhir:v ["http://hl7.org/fhir/timing-abbreviation"^^xsd:anyURI] } ;
+        } }
+      }
+    } ;
+    fhir:route {
+      fhir:coding { rdf:first {
+        a IRI %Map:{ mr:route %} ;
+        fhir:code    { fhir:v xsd:string %Map:{ mr:routeCode %} } ;
+        fhir:display { fhir:v xsd:string %Map:{ mr:routeDisplay %} } ;
+        fhir:system  { fhir:v xsd:anyURI %Map:{ mr:routeSystem %} } ;
+      } }
+    } ;
+  } } ;
+}
