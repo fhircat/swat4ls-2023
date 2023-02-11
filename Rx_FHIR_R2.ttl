@@ -20,9 +20,8 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
     fhir:timing [
       fhir:Timing.code [
         fhir:coding ( [
-          fhir:code    [ fhir:v "229797004" ] ;
-          fhir:display [ fhir:v "Once daily (qualifier value)" ] ;
-          fhir:system  [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+          fhir:code    [ fhir:v "QD" ] ;
+          fhir:system  [ fhir:v "http://hl7.org/fhir/timing-abbreviation"^^xsd:anyURI ] ;
         ] )
       ]
     ] ;
