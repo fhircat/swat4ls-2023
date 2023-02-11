@@ -4,6 +4,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX sct:  <http://snomed.info/id#>
 PREFIX loinc: <https://loinc.org/rdf/>
 PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX rxnorm: <http://www.nlm.nih.gov/research/umls/rxnorm>
 
 <https://example.org/MedicationOrder/de311dbd-da50-4d26-9360-696a0a7dc8f7>
   a fhir:MedicationOrder ;
@@ -11,6 +12,7 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
   fhir:id [ fhir:v "de311dbd-da50-4d26-9360-696a0a7dc8f7" ] ;
   fhir:medicationCodeableConcept [
     fhir:coding ( [
+      a rxnorm:197361 ;
       fhir:code    [ fhir:v "197361" ] ;
       fhir:display [ fhir:v "amlodipine 5 MG Oral Tablet" ] ;
       fhir:system  [ fhir:v "http://www.nlm.nih.gov/research/umls/rxnorm"^^xsd:anyURI ] ;
@@ -28,6 +30,7 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
     ] ;
     fhir:route [
       fhir:coding ( [
+        a sct:26643006 ;
         fhir:code    [ fhir:v "26643006" ] ;
         fhir:display [ fhir:v "Oral route (qualifier value)" ] ;
         fhir:system  [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
