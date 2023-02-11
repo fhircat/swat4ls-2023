@@ -1,5 +1,14 @@
 {
   "resourceType": "MedicationRequest",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/us/rx/StructureDefinition/MedicationAdherenceExt",
+      "valueQuantity": {
+        "value": 80,
+        "unit": "%"
+      }
+    }
+  ],
   "medicationCodeableConcept": {
     "coding": [
       {

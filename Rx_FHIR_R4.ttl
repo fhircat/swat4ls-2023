@@ -8,6 +8,15 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
 []
   a fhir:MedicationRequest ;
   fhir:nodeRole fhir:treeRoot ;
+  fhir:DomainResource.extension   
+    [ fhir:Extension.url            
+      [ fhir:value "http://hl7.org/fhir/us/rx/StructureDefinition/MedicationAdherenceExt"^^xsd:anyURI ] ;
+      fhir:Extension.valueQuantity  
+        [ fhir:Quantity.unit  [ fhir:value  "%" ] ;
+          fhir:Quantity.value  [ fhir:value  "80"^^xsd:decimal ]
+        ] ;
+      fhir:index 0
+    ] ;
   fhir:medicationCodeableConcept [
     fhir:coding ( [
       fhir:code    [ fhir:v "197361" ] ;
