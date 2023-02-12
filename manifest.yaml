@@ -25,3 +25,18 @@
   status: conformant
   # expectedBindingsURL: Rx-simple-bindings.json
   outputDataURL: RxLogicalModel.ttl
+
+- schemaLabel: Rx R2 to R4
+  schemaURL: Rx_FHIR_DSTU2-schema.shex
+  dataLabel: simple
+  dataURL: Rx_FHIR_DSTU2.ttl
+  queryMap: "{FOCUS a fhir:MedicationOrder}@<MedicationOrder>"
+  outputSchemaURL: Rx_FHIR_R4-no-adherence-schema.shex
+  outputShape: "<MedicationRequest>"
+  staticVars:
+    http://abc.example/someConstant: '"123-456"'
+  createRoot: "<tag:uu3.org/2023/b1>"
+  status: conformant
+  # expectedBindingsURL: Rx-simple-bindings.json
+  outputDataURL: RxLogicalModel.ttl
+
