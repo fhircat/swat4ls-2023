@@ -1,16 +1,16 @@
-- schemaLabel: BP R4 to LM
-  schemaURL: BP_FHIR_R4-schema.shex
+- schemaLabel: Rx R2 to R4
+  schemaURL: Rx_FHIR_DSTU2-schema.shex
   dataLabel: simple
-  dataURL: BP_FHIR_R4.ttl
-  queryMap: "{FOCUS a fhir:Observation}@START"
-  outputSchemaURL: BPLogicalModel-schema.shex
-  outputShape: "<BPLogicalModel>"
+  dataURL: Rx_FHIR_DSTU2.ttl
+  queryMap: "{FOCUS a fhir:MedicationOrder}@<MedicationOrder>"
+  outputSchemaURL: Rx_FHIR_R4-no-adherence-schema.shex
+  outputShape: "<MedicationRequest>"
   staticVars:
     http://abc.example/someConstant: '"123-456"'
-  createRoot: "<tag:uu3.org/2023/b0>"
+  createRoot: "<tag:uu3.org/2023/b1>"
   status: conformant
-  # expectedBindingsURL: BP-simple-bindings.json
-  outputDataURL: BPLogicalModel.ttl
+  # expectedBindingsURL: Rx-simple-bindings.json
+  outputDataURL: RxLogicalModel.ttl
 
 - schemaLabel: Rx R4 to LM
   schemaURL: Rx_FHIR_R4-schema.shex
@@ -26,17 +26,17 @@
   # expectedBindingsURL: Rx-simple-bindings.json
   outputDataURL: RxLogicalModel.ttl
 
-- schemaLabel: Rx R2 to R4
-  schemaURL: Rx_FHIR_DSTU2-schema.shex
+- schemaLabel: BP R4 to LM
+  schemaURL: BP_FHIR_R4-schema.shex
   dataLabel: simple
-  dataURL: Rx_FHIR_DSTU2.ttl
-  queryMap: "{FOCUS a fhir:MedicationOrder}@<MedicationOrder>"
-  outputSchemaURL: Rx_FHIR_R4-no-adherence-schema.shex
-  outputShape: "<MedicationRequest>"
+  dataURL: BP_FHIR_R4.ttl
+  queryMap: "{FOCUS a fhir:Observation}@START"
+  outputSchemaURL: BPLogicalModel-schema.shex
+  outputShape: "<BPLogicalModel>"
   staticVars:
     http://abc.example/someConstant: '"123-456"'
-  createRoot: "<tag:uu3.org/2023/b1>"
+  createRoot: "<tag:uu3.org/2023/b0>"
   status: conformant
-  # expectedBindingsURL: Rx-simple-bindings.json
-  outputDataURL: RxLogicalModel.ttl
+  # expectedBindingsURL: BP-simple-bindings.json
+  outputDataURL: BPLogicalModel.ttl
 
