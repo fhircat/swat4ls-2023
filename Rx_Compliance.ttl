@@ -1,0 +1,12 @@
+PREFIX lm: <http://example.com/lm>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+
+[   a lm:MedicationRegimenCompliance ;
+    lm:compliance [
+          a lm:Quantity ;
+          lm:value 90 ;
+          lm:unit "%" ;
+      ];
+    lm:rxId <https:example.org/MedicationOrder/de311dbd-da50-4d26-9360-696a0a7dc8f7>
+].
+

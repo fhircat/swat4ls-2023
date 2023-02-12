@@ -1,0 +1,25 @@
+PREFIX fhir: <http://hl7.org/fhir/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX lm: <http://example.com/lm> 
+
+CONSTRUCT {
+  ?r
+    fhir:extension ( [
+      fhir:url [
+        fhir:v "http://hl7.org/fhir/us/rx/StructureDefinition/MedicationAdherenceExt"^^xsd:anyURI
+      ] ;
+      fhir:valueQuantity [
+        fhir:unit  [ fhir:v  ?adherenceUnits ] ;
+        fhir:value  [ fhir:v  ?adherenceValue ]
+      ] ;
+    ] ) ;
+} WHERE {
+  ?r fhir:nodeRole fhir:treeRoot .
+  [
+    a lm:MedicationRegimenCompliance ;
+    lm:compliance [
+      lm:value ?adherenceValue ;
+      lm:unit ?adherenceUnits ;
+    ]
+  ]
+}
