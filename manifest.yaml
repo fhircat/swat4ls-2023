@@ -1,4 +1,4 @@
-- schemaLabel: Rx R2 to R4
+- schemaLabel: Rx DSTU2 to R4
   schemaURL: Rx_FHIR_DSTU2-schema.shex
   dataLabel: simple
   dataURL: Rx_FHIR_DSTU2.ttl
