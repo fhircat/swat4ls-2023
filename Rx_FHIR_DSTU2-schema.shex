@@ -28,12 +28,16 @@ START=<MedicationOrder>
     fhir:timing {
       fhir:code {
         fhir:coding { rdf:first {
-#          a IRI %Map:{ mr:frequency %} ;
-          fhir:code    { fhir:v ["QD"]
- %Map:{ mr:routeFrequency %}
-# %Map:{ hashmap(mr:routeFrequency, {"QD": "229797004", "x": "xyz"}) %}
-            } ;
-#          fhir:display { fhir:v xsd:string } ;
+          fhir:code    { fhir:v ["QD"] %Map:{ hashmap(mr:routeFrequency, {
+            "QD": "229797004",
+            "OM": "307472001",
+            "ON": "396142006",
+            "BD": "229799001",
+            "TDS": "229798009",
+            "QDS": "307439001",
+            "PRN": "420449005",
+            "STAT": "422114001"
+          }) %} } ;
           fhir:system  { fhir:v ["http://hl7.org/fhir/timing-abbreviation"^^xsd:anyURI] } ;
         } }
       }

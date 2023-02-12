@@ -6,7 +6,7 @@
   outputSchemaURL: Rx_FHIR_R4-no-adherence-schema.shex
   outputShape: "<MedicationRequest>"
   staticVars:
-    http://abc.example/someConstant: '"123-456"'
+    http://a.example/shexmap/mrrouteFrequencyUnits: '"http://snomed.info/sct"^^xsd:anyURI'
   createRoot: "<tag:uu3.org/2023/b1>"
   status: conformant
   # expectedBindingsURL: Rx-simple-bindings.json
